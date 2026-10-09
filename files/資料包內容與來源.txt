@@ -1,0 +1,48 @@
+yoxi 會議與官方資料
+
+整理日期：2026-10-09
+會議日期：2026-10-03
+
+會議資料
+
+會議討論整理：會議討論的主要想法、操作方式及尚未決定的問題。
+逐段討論點：16 個主題的提出原因、回應、疑慮和修改。
+討論原話摘錄：按主題摘錄 50 段原話。
+逐字稿（專案段落）：原始逐字稿中的專案段落，排除非專案聊天及部分行政、工具與聯絡段落。
+
+會議整理保留不同意見與未決事項。原始轉錄仍有疑詞，沒有可靠標記的說話者未補上姓名。
+
+官方資料
+
+yoxi 題目與資料資源：yoxi 題目全文、目標、提案要求與公告提供的資料。
+初賽與決賽評分標準：官方配分與逐項說明。
+時程與報名資訊：截止時間、資格、繳件、工作坊及獎項。
+初賽繳件與影片規定：官網公告的格式、影片上傳方式與命名要求。
+初賽簡報模板文字：官方模板各頁文字。
+官網競賽說明原文：2026-10-09 讀取的官網活動說明。
+官方原檔：企業挑戰題目 PDF、初賽簡報模板 PPTX、參賽注意事項 PDF，以及兩份同意書 PDF。
+
+本資料包僅包含會議資料與官方資訊，未加入方案評分、得獎策略、產品建議或假設情境。官方規則的完整條文保留在原檔。
+
+官方來源
+
+活動官網：https://ht-hackathon.tw/tw/home/
+競賽說明：https://ht-hackathon.tw/tw/y5sf0shclq6c3yn1db/
+yoxi 題目頁：https://ht-hackathon.tw/tw/challenge/?item=6
+
+官方附件於 2026-10-09 重新下載，檔案內容與同日由官網取得的版本一致。
+
+著作財產權授權暨肖像授權同意書.pdf
+https://cdn.bountyhunter.co/file-presign/3a4a0a9f-ca02-4ec8-b81f-6cad639641a0.pdf
+
+參賽注意事項.pdf
+https://cdn.bountyhunter.co/file-presign/23513098-c468-4a37-9e60-4592009711c4.pdf
+
+法定代理人同意書.pdf
+https://cdn.bountyhunter.co/file-presign/f64e9f67-258a-4141-88e0-9c9629a58802.pdf
+
+初賽簡報模板.pptx
+https://cdn.bountyhunter.co/file-presign/cb242b3e-a683-434b-82ee-8d3c43eb4067.pptx
+
+企業挑戰題目.pdf
+https://cdn.bountyhunter.co/file-presign/d382a46c-1ca6-4363-8e03-1481260d5c9f.pdf
