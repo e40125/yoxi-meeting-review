@@ -20,7 +20,7 @@
     current = index;
     const slide = slides[index];
     image.src = slide.image;
-    image.alt = `${slide.label}：${slide.title}。完整文字可在下方展開。`;
+    image.alt = `${slide.label}：${slide.title}`;
     select.value = String(index);
     previous.disabled = index === 0;
     next.disabled = index === slides.length - 1;
