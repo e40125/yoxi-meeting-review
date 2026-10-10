@@ -26,7 +26,17 @@
     next.disabled = index === slides.length - 1;
     document.getElementById('slide-status').textContent = `${slide.label}：${slide.title}`;
     const title = document.createElement('h2'); title.textContent = slide.title;
-    document.getElementById('slide-text').replaceChildren(title, ...slide.text.map(t => paragraph(t)), paragraph(slide.footnote, 'status-note'));
+    const sourceList = document.createElement('ul');
+    for (const source of slide.links || []) {
+      if (!/^https?:\/\//.test(source.url)) continue;
+      const item = document.createElement('li');
+      const link = document.createElement('a');
+      link.href = source.url;
+      link.textContent = source.label;
+      item.append(link);
+      sourceList.append(item);
+    }
+    document.getElementById('slide-text').replaceChildren(title, ...slide.text.map(t => paragraph(t)), ...(sourceList.childElementCount ? [sourceList] : []), paragraph(slide.footnote, 'status-note'));
     document.getElementById('slide-spoken').replaceChildren(...slide.notes.split('\n\n').filter(Boolean).map(t => paragraph(t)));
     document.title = `${slide.title}｜yoxi 初賽簡報`;
   }
@@ -35,7 +45,7 @@
     location.hash = `slide-${index + 1}`;
   }
   try {
-    const response = await fetch('assets/proposal/slides.json');
+    const response = await fetch('assets/proposal/slides.json?v=20261011-integrated');
     if (!response.ok) throw new Error('Slide data unavailable');
     slides = await response.json();
     show(indexFromHash());
