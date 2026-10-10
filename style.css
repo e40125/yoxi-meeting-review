@@ -21,3 +21,50 @@
 @media(max-width:700px){.proposal-hero{display:flex;flex-direction:column;align-items:stretch;padding:28px 0;gap:26px}.proposal-lead h1{font-size:31px}.proposal-actions{gap:22px}.evolution-head{display:none}.evolution article{display:block;padding:20px 0}.evolution h3{font-size:19px;margin-bottom:14px}.evolution article>div+div{margin-top:12px}.mobile-label{display:block;font-size:13px;color:var(--muted);margin-bottom:3px}.reader-heading{display:block}.reader-heading h1{font-size:28px}.reader-downloads{margin-top:19px;gap:20px;font-size:14px}.proposal-reader{padding-top:22px}.slide-controls{grid-template-columns:1fr 1fr;gap:12px}.slide-choice{grid-column:1/-1;grid-row:1}.slide-controls #previous{grid-row:2}.slide-controls #next{grid-row:2}.slide-controls select{font-size:16px}.slide-controls button{font-size:15px}.slide-status{line-height:1.7}.slide-notes h2{font-size:22px}.speaker-section summary{font-size:18px}.proposal-home .reading-section h2{font-size:23px}.site-header nav{gap:13px;font-size:13px}.header-inner{padding-left:16px;padding-right:16px;gap:14px}.reader-end{gap:15px}.speaker-notes-page>p{font-size:16px}}
 @media(max-width:350px){.header-inner{padding-left:12px;padding-right:12px;gap:10px}.site-header nav{gap:9px;font-size:12px}.brand>span:first-child{font-size:25px}.proposal-lead h1{font-size:28px}}
 @media print{.slide-controls,.reader-downloads,.reader-end{display:none}.proposal-reader{padding:0}.slide-frame{border:0}.proposal-hero{break-inside:avoid}.speaker-section{break-inside:avoid}}
+
+/* The final week: an arrival board and a seven-day time track. */
+.deadline-board{margin:30px 0 0;padding:30px 32px 20px;background:#163d62;color:#fff;border-radius:16px;box-shadow:0 12px 30px #163d6214;overflow:hidden}
+.deadline-top{display:flex;justify-content:space-between;align-items:center;gap:30px}
+.deadline-date h2{font-size:15px;font-weight:500;color:#d9e7f2;margin:0 0 8px;letter-spacing:0}
+.deadline-date time{display:block;font-size:24px;font-weight:600;line-height:1.5;white-space:nowrap}
+.deadline-date time strong{font-family:"Avenir Next",Arial,sans-serif;font-size:34px;font-weight:650;margin-left:5px}
+.deadline-date>span{font-size:13px;color:#d9e7f2}
+.deadline-countdown>p{margin:0 0 2px;font-size:14px;color:#d9e7f2}
+.countdown-digits{display:flex;align-items:baseline;gap:18px}
+.countdown-digits>span{display:flex;align-items:baseline;gap:6px}
+.countdown-digits strong{font-family:"Avenir Next",Arial,sans-serif;font-size:62px;font-weight:650;letter-spacing:-.045em;font-variant-numeric:tabular-nums;line-height:1.12;color:#f8d454}
+.countdown-digits small{font-size:14px;color:#edf3f9}
+.deadline-ended{font-size:32px;font-weight:650;color:#f8d454;margin:0}
+.deadline-countdown[hidden],.deadline-ended[hidden]{display:none}
+.deadline-timeline{margin:27px 0 25px}
+.timeline-labels{display:flex;justify-content:space-between;font-size:12px;color:#d9e7f2;margin-bottom:9px}
+.deadline-track{height:12px;border-radius:20px;background:#ffffff2b;position:relative;overflow:hidden}
+.deadline-track:after{content:"";position:absolute;inset:0;background:repeating-linear-gradient(to right,transparent 0,transparent calc(100% / 7 - 2px),#163d62 calc(100% / 7 - 2px),#163d62 calc(100% / 7));pointer-events:none}
+.deadline-fill{height:100%;width:0;display:block;background:#f8d454;transition:width .7s ease;border-radius:20px}
+.work-progress{padding-top:20px;border-top:1px solid #ffffff2b}
+.work-progress h3{font-size:14px;font-weight:500;margin:0 0 17px;color:#d9e7f2;letter-spacing:0}
+.milestone-list{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;list-style:none;margin:0;padding:0}
+.milestone-list li{display:flex;gap:8px;align-items:flex-start;font-size:14px;line-height:1.5}
+.milestone-list li>div>span{display:block;color:#fff;font-size:14px}
+.milestone-list li strong{display:block;font-size:12px;font-weight:500;color:#c1d3e2;margin-top:3px}
+.milestone-mark{display:inline-flex;flex-shrink:0;justify-content:center;align-items:center;width:19px;height:19px;border:1px solid #8fa9bf;border-radius:50%;margin-top:1px;font-size:12px;line-height:1;color:#d9e7f2}
+.is-done .milestone-mark{background:#f8d454;border-color:#f8d454;color:#163d62;font-weight:800}
+.is-done strong{color:#f8d454!important}
+.is-active .milestone-mark{border:5px solid #f8d454;background:#163d62}
+.deadline-foot{border-top:1px solid #ffffff2b;display:flex;justify-content:space-between;gap:16px;padding-top:15px;margin-top:23px;font-size:13px}
+.deadline-foot a{color:#edf3f9;text-decoration-color:#92acc2}
+.deadline-board a:focus-visible{outline-color:#f8d454}
+.team-actions .action-row{display:grid;grid-template-columns:235px minmax(0,1fr);gap:30px;padding:24px 0;border-bottom:1px solid var(--line)}
+.action-row h3{font-size:19px;margin:0;line-height:1.65}
+.action-row p{font-size:16px;margin-bottom:12px;line-height:1.85;max-width:700px}
+.action-row p:last-child{margin-bottom:0}
+.action-row a{font-size:15px}
+.copy-page{border:1px solid #9eb1c4;border-radius:5px;padding:8px 13px;color:var(--blue);background:#fff;cursor:pointer;font:inherit}
+.copy-page[hidden],.copy-status[hidden]{display:none}
+.copy-status{flex-basis:100%;font-size:14px;color:var(--muted);overflow-wrap:anywhere;order:2}
+.reader-end{align-items:center}
+@media(max-width:960px){.deadline-top{gap:20px}.countdown-digits{gap:13px}.countdown-digits strong{font-size:50px}.deadline-date time{font-size:22px}.deadline-date time strong{font-size:29px}.milestone-list{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.team-actions .action-row{grid-template-columns:190px minmax(0,1fr);gap:25px}}
+@media(max-width:700px){.deadline-board{margin-top:20px;padding:23px 20px 17px;border-radius:13px}.deadline-top{display:block}.deadline-date{display:grid;grid-template-columns:1fr auto;align-items:baseline;column-gap:10px}.deadline-date h2{grid-column:1/-1;margin-bottom:5px}.deadline-date time{font-size:19px}.deadline-date time strong{font-size:27px;margin-left:3px}.deadline-date>span{font-size:11px}.deadline-countdown{margin-top:20px}.countdown-digits{gap:20px}.countdown-digits strong{font-size:46px}.countdown-digits small{font-size:12px}.deadline-countdown>p{font-size:13px;margin-bottom:5px}.deadline-timeline{margin:21px 0}.milestone-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 12px}.deadline-foot{font-size:12px;gap:12px}.deadline-ended{margin-top:18px;font-size:27px}.team-actions .action-row{display:block;padding:21px 0}.action-row h3{font-size:19px;margin-bottom:10px}.action-row p{font-size:16px}.site-header nav{gap:10px;font-size:12px}}
+@media(max-width:370px){.deadline-board{padding-left:16px;padding-right:16px}.deadline-date time{font-size:17px}.deadline-date time strong{font-size:24px}.countdown-digits{gap:14px}.countdown-digits strong{font-size:41px}.countdown-digits>span{gap:4px}.site-header nav{gap:8px;font-size:11px}}
+@media(prefers-reduced-motion:reduce){.deadline-fill{transition:none}}
+@media print{.deadline-board{background:#fff;color:#000;box-shadow:none;border:1px solid #ccc;break-inside:avoid}.deadline-board h2,.deadline-board h3,.deadline-board span,.deadline-board strong,.deadline-board small,.deadline-board p,.deadline-board a{color:#000!important}.deadline-countdown,.deadline-timeline,.deadline-foot{display:none}.milestone-list{grid-template-columns:repeat(3,1fr)}}

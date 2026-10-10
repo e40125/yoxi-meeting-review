@@ -4,6 +4,8 @@
   const previous = document.getElementById('previous');
   const next = document.getElementById('next');
   const error = document.getElementById('reader-error');
+  const copyButton = document.getElementById('copy-slide');
+  const copyStatus = document.getElementById('copy-status');
   let slides, current = 1;
   function indexFromHash() {
     const match = /^#slide-(\d+)$/.exec(location.hash);
@@ -39,6 +41,7 @@
     document.getElementById('slide-text').replaceChildren(title, ...slide.text.map(t => paragraph(t)), ...(sourceList.childElementCount ? [sourceList] : []), paragraph(slide.footnote, 'status-note'));
     document.getElementById('slide-spoken').replaceChildren(...slide.notes.split('\n\n').filter(Boolean).map(t => paragraph(t)));
     document.title = `${slide.title}｜yoxi 初賽簡報`;
+    copyStatus.hidden = true;
   }
   function navigate(index) {
     if (index < 0 || index >= slides.length) return;
@@ -54,6 +57,18 @@
     previous.addEventListener('click', () => navigate(current - 1));
     next.addEventListener('click', () => navigate(current + 1));
     select.addEventListener('change', () => navigate(Number(select.value)));
+    copyButton.hidden = false;
+    copyButton.addEventListener('click', async () => {
+      const url = new URL(location.href);
+      url.hash = `slide-${current + 1}`;
+      try {
+        await navigator.clipboard.writeText(url.href);
+        copyStatus.textContent = '已複製，可貼到群組。';
+      } catch {
+        copyStatus.textContent = `請複製這個連結：${url.href}`;
+      }
+      copyStatus.hidden = false;
+    });
     document.addEventListener('keydown', event => {
       if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey || /^(INPUT|SELECT|TEXTAREA|BUTTON)$/.test(event.target.tagName) || event.target.isContentEditable) return;
       if (event.key === 'ArrowLeft') { event.preventDefault(); navigate(current - 1); }
