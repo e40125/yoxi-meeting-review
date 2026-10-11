@@ -63,7 +63,7 @@
       url.hash = `slide-${current + 1}`;
       try {
         await navigator.clipboard.writeText(url.href);
-        copyStatus.textContent = '已複製，可貼到群組。';
+        copyStatus.textContent = '已複製連結。';
       } catch {
         copyStatus.textContent = `請複製這個連結：${url.href}`;
       }
