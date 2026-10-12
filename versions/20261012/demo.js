@@ -1,0 +1,1 @@
+const film=document.getElementById('film');document.querySelectorAll('[data-time]').forEach(button=>button.addEventListener('click',()=>{film.currentTime=Number(button.dataset.time);film.play().catch(()=>{});}));

@@ -1,0 +1,13 @@
+{
+  "adopted": "banquet-reference.jpg",
+  "source": "https://commons.wikimedia.org/wiki/File:Taiwanese_cuisine.jpg",
+  "author": "WikiLaurent",
+  "revision": "Currentlybiscuit, luminosity and sharpening",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "usage": "UI invitation illustrative photo, original unchanged, CSS cover crop",
+  "notActualMenu": true,
+  "notAdopted": [
+    "taiwanese-table.jpg"
+  ]
+}
