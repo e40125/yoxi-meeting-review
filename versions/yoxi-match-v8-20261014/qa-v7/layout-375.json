@@ -1,0 +1,272 @@
+[
+  {
+    "route": "explore",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "explore",
+    "textLength": 191,
+    "width": 375
+  },
+  {
+    "route": "import",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "import",
+    "textLength": 52,
+    "width": 375
+  },
+  {
+    "route": "organized",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "organized",
+    "textLength": 83,
+    "width": 375
+  },
+  {
+    "route": "interests",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "interests",
+    "textLength": 69,
+    "width": 375
+  },
+  {
+    "route": "music",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "music",
+    "textLength": 114,
+    "width": 375
+  },
+  {
+    "route": "event",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "event",
+    "textLength": 162,
+    "width": 375
+  },
+  {
+    "route": "rideprefs",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "rideprefs",
+    "textLength": 149,
+    "width": 375
+  },
+  {
+    "route": "rides",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "rides",
+    "textLength": 240,
+    "width": 375
+  },
+  {
+    "route": "person",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "person",
+    "textLength": 140,
+    "width": 375
+  },
+  {
+    "route": "terms",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "terms",
+    "textLength": 186,
+    "width": 375
+  },
+  {
+    "route": "pending",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "pending",
+    "textLength": 137,
+    "width": 375
+  },
+  {
+    "route": "host",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "host",
+    "textLength": 167,
+    "width": 375
+  },
+  {
+    "route": "confirmed",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "confirmed",
+    "textLength": 180,
+    "width": 375
+  },
+  {
+    "route": "playlist",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "playlist",
+    "textLength": 168,
+    "width": 375
+  },
+  {
+    "route": "karaoke",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "karaoke",
+    "textLength": 80,
+    "width": 375
+  },
+  {
+    "route": "daily",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "daily",
+    "textLength": 180,
+    "width": 375
+  },
+  {
+    "route": "icebreaker",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "icebreaker",
+    "textLength": 84,
+    "width": 375
+  },
+  {
+    "route": "reveal",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "reveal",
+    "textLength": 33,
+    "width": 375
+  },
+  {
+    "route": "arrival",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "arrival",
+    "textLength": 163,
+    "width": 375
+  },
+  {
+    "route": "tripmemory",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "tripmemory",
+    "textLength": 200,
+    "width": 375
+  },
+  {
+    "route": "musicmemory",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "musicmemory",
+    "textLength": 126,
+    "width": 375
+  },
+  {
+    "route": "mine",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "mine",
+    "textLength": 150,
+    "width": 375
+  },
+  {
+    "route": "journey",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "journey",
+    "textLength": 329,
+    "width": 375
+  },
+  {
+    "route": "footprints",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "footprints",
+    "textLength": 196,
+    "width": 375
+  },
+  {
+    "route": "bear",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "bear",
+    "textLength": 199,
+    "width": 375
+  },
+  {
+    "route": "run",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "run",
+    "textLength": 147,
+    "width": 375
+  },
+  {
+    "route": "runplay",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "runplay",
+    "textLength": 0,
+    "width": 375
+  },
+  {
+    "route": "runresult",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "runresult",
+    "textLength": 106,
+    "width": 375
+  },
+  {
+    "route": "leaderboard",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "leaderboard",
+    "textLength": 221,
+    "width": 375
+  },
+  {
+    "route": "openride",
+    "appWidth": 375,
+    "broken": [],
+    "docWidth": 375,
+    "screen": "openride",
+    "textLength": 189,
+    "width": 375
+  }
+]

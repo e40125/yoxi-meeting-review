@@ -1,0 +1,212 @@
+[
+  {
+    "route": "explore",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "import",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "organized",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "interests",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "music",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "event",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "rideprefs",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "rides",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "person",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "terms",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "pending",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "host",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "confirmed",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "playlist",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "karaoke",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "daily",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "icebreaker",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "reveal",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "arrival",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "tripmemory",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "musicmemory",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "mine",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "journey",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "footprints",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "bear",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "run",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "runplay",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "runresult",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "leaderboard",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  },
+  {
+    "route": "openride",
+    "appOverflow": false,
+    "brokenImages": [],
+    "hasContent": true,
+    "overflow": false
+  }
+]

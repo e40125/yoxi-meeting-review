@@ -1,0 +1,4 @@
+V4 original vector assets, 2026-10-13.
+paper-walk-poster.svg: updated original V3 fictional event poster to blue ground.
+illustration.svg, zines.svg, stationery.svg: original hand-authored SVG compositions to illustrate the three pre-outing choices. No third-party imagery.
+All photographed street/venue imagery retains original attribution in ../v3/v3-asset-sources.txt and ../v2/v2-asset-sources.txt.

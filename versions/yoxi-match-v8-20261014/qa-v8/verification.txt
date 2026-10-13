@@ -1,0 +1,22 @@
+V8 verification — 2026-10-14
+
+Verified in browser:
+- 30 app routes at 375 x 812: nonempty content, no document or app horizontal overflow, no unloaded/broken HTML images at the read point.
+- Header 一起出門 is one text line at 320 x 740; visually inspected at 320 and390 widths.
+- 圓山 trial produced650 points:10stars,3collisions,30active seconds. Own score appears on 圓山 board only; 大稻埕 still has no own score. Trial left monthly mileage66.9,8trips,6destination districts.
+- Adding the sample 圓山 trip produces70.7km,9trips,198minutes,7districts; reloading remains unchanged. Lifetime120.4km. Same arrival is an idempotent flag, not an appended duplicate.
+- Trip receipt→flower shelf preselects the flower; wear renders a native3D flower badge; game canvas confirms outfit=flower. Map 中山 pin→圓山公園 Run preserves same place and course.
+- New course actual move/jump controls, pause/resume and exit exercised. Aborted second run did not replace650best. Finished game unlocks leaf bookmark separately from trip flower.
+- Switching to 大稻埕 updates URL and persists after reload. Challenge dialog shows 圓山 name and650best; copy action displays success. Clipboard contents not independently confirmed by browser clipboard reader.
+- Updated UI screenshots captured from actual browser state. Other unchanged gallery screenshots remain from V7 and are labeled as reused.
+
+Source checks:
+- Modified parentJS and new3D module parse successfully.
+- Course-specific best-score presence includes a legitimate0score; histories retained per course,30 each.
+- Course message source/origin/current iframe checked; fixed30duration,stars0..28,hits0..8,exactscoreformula.
+- V8 localStorage namespace independent from V7. Frozen V7 files are excluded from changes.
+
+Limits:
+- People, rides and opponent records remain demo examples; no official ride synchronization or realtime ranking backend.
+- New native 圓山 scene is a themed design, not actual road reconstruction.
+- Physical-device performance and a full accessibility audit were not performed.

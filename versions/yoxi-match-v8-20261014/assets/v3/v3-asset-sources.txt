@@ -1,0 +1,76 @@
+yoxi MATCH! V3 — final asset use and attribution
+Checked against current index.html, v2.js, social-v2.js and styles on 2026-10-13.
+
+IMAGE TREATMENT AND TRUTH
+The downloaded JPEG originals are unchanged: no pixel editing, generation, retouching, color grading, resizing or destructive crop. The application uses CSS object-fit/object-position to crop images to different card shapes; overlays and darkening are display layers. The original SVG poster is a separate project-created vector asset.
+The three Taipei photos illustrate interests and quiz choices. They are not photos taken by the fictional member 小安, evidence of the fictional 2026-10-17 event, or current business listings. Their original photographers and licenses are credited on references.html. None establishes a sponsor or photographer endorsement.
+
+FILE: dihua-street.jpg
+Original title: File:Dihua Street - Flickr - Franck Michel.jpg
+Final use: Daily play: 猜大家想去哪 card. In-ride icebreaker: option C 街邊小店.
+Dimensions: 4779 × 3584
+Photographer: Franck Michel from Antibes, France
+License: CC BY 4.0
+License URL: https://creativecommons.org/licenses/by/4.0
+Source page: https://commons.wikimedia.org/wiki/File:Dihua_Street_-_Flickr_-_Franck_Michel.jpg
+Original download URL: https://upload.wikimedia.org/wikipedia/commons/7/71/Dihua_Street_-_Flickr_-_Franck_Michel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+SHA256: 87e0b2410c62e6bad109696efbb6a378f7a6514be27bb84034369cc5b6537649
+Commons description identifies Dihua Street, Taipei, October 2025; EXIF date is inconsistent (2000), so no exact capture date is asserted. The visible shopkeeper is not a member of this app. CC BY 4.0: give credit, source and license link, and state CSS presentation crop.
+
+FILE: taipei-shop-signs.jpg
+Original title: File:Shop signs in Taipei 2007-11-24.jpg
+Final use: Explore photography inspiration card and detail; 小安 profile photography-interest example; daily friend-game hero; icebreaker option A 老店的招牌; answer reveal.
+Dimensions: 2048 × 1361
+Photographer: zilupe
+License: CC BY 2.0
+License URL: https://creativecommons.org/licenses/by/2.0
+Source page: https://commons.wikimedia.org/wiki/File:Shop_signs_in_Taipei_2007-11-24.jpg
+Original download URL: https://upload.wikimedia.org/wikipedia/commons/7/71/Shop_signs_in_Taipei_2007-11-24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+SHA256: 96068bf4e165b688db88cb69b7a18fb42d47912c5655668251b839fe47730f0e
+Photo date: 2007-11-24. Historic Taipei neon shop signs, around Xuchang Street. Not current storefront information. CC BY 2.0: give credit, source and license link, and state CSS presentation crop.
+
+FILE: minsheng-cat.jpg
+Original title: File:民生西路邊的貓.jpg
+Final use: Daily play: 換朋友猜你 card. In-ride icebreaker: option B 路邊的貓.
+Dimensions: 3072 × 3072
+Photographer: 丘崈
+License: CC0
+License URL: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+Source page: https://commons.wikimedia.org/wiki/File:%E6%B0%91%E7%94%9F%E8%A5%BF%E8%B7%AF%E9%82%8A%E7%9A%84%E8%B2%93.jpg
+Original download URL: https://upload.wikimedia.org/wikipedia/commons/7/7b/%E6%B0%91%E7%94%9F%E8%A5%BF%E8%B7%AF%E9%82%8A%E7%9A%84%E8%B2%93.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
+SHA256: 3d5272247b0a06b0ee1f3dc43e8780cad8b9798aac38483065f0002685336d77
+Photo date: 2025-09-27. Minsheng West Road, Taipei. CC0; credit retained as provenance.
+
+ORIGINAL VECTOR EVENT POSTER
+File: paper-walk-poster.svg
+Dimensions: SVG width 720, height 680; viewBox 0 0 720 680.
+Creation: original vector layout authored for this project by the implementation assistant. Text and geometric shapes; no imported photo or external image reference. Uses the viewer’s installed font fallbacks, not an embedded font file.
+Final use: exploration event card; sample-input card; sample organized result; event detail; compact event summaries; saved event; share preview.
+The depicted 紙上散步 event, 10/17 date and free-entry offer are fictional demonstration content. This is not a real organizer’s artwork and not a raster AI-generated photograph.
+No third-party stock-photo license applies to this original layout. Existing yoxi brand rights are separate.
+SHA256: 35f8b3660378cdaa90f3fb522fe74845ed782db775efc45eba7beb821bfde17b
+
+RETAINED V2 PHOTOGRAPHS
+File: ../v2/songshan-warehouses.jpg — 玄史生, CC0, 4896 × 3264, photographed 2019-06-16. Final use: arrival venue image.
+Source: https://commons.wikimedia.org/wiki/File:Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20190616.jpg
+File: ../v2/songshan-warehouse-1.jpg — 玄史生, CC0, 4896 × 3264, photographed 2019-06-16. Final use: event location/traffic strip and venue-detail modal.
+Source: https://commons.wikimedia.org/wiki/File:Warehouse_No._1,_Songshan_Cultural_and_Creative_Park_20190616.jpg
+File: ../v2/bookstore-interior.jpg — MarkBuckawicki, CC0, 3264 × 2448, photographed 2014-01-03 in Vermont, USA. Final use: non-location-specific reading inspiration card/modal, not a Taipei bookstore listing.
+Source: https://commons.wikimedia.org/wiki/File:Bookstore_Interior.jpg
+CC0: https://creativecommons.org/publicdomain/zero/1.0/
+Full original metadata and provenance remain in ../v2/v2-asset-sources.txt, ../v2/provenance.json and ../v2/bookstore-provenance.json. All three are credited on references.html.
+
+OTHER PROJECT ASSETS
+../an-portrait.png — generated fictional Taiwanese adult woman portrait from this project. Used as 小安’s demo portrait on people, trip, quiz and friend views. Not a photograph of a real member. Synthetic status disclosed in the review inspector, references.html and README.txt.
+../weekend-cover.png — earlier generated zine flatlay. Retained for underlying earlier app.js helpers, replaced by the original SVG poster in current V3 screen overrides. It is not the V3 event hero.
+../yoxi-logo.svg — existing yoxi brand asset from the original local project. Brand rights are separate from the photo licenses; no CC0/CC-BY license is asserted for the logo.
+../map/ — six local OpenStreetMap standard raster tiles. © OpenStreetMap contributors; official copyright and map-data license: https://www.openstreetmap.org/copyright . Attribution remains visible and linked in the map. Source and download record: ../map/SOURCE.txt. Routes and vehicle markers are illustrative, not live navigation.
+references.html contains remote official app/studio promotional images for design research only. Those images are not part of the application’s local product imagery and are not claimed to be CC0 or CC-BY. Their respective official source links remain beside each research example.
+
+PUBLIC CREDIT WORDING
+台北招牌：zilupe / Wikimedia Commons / CC BY 2.0；迪化街：Franck Michel / Wikimedia Commons / CC BY 4.0；民生西路的貓：丘崈 / Wikimedia Commons / CC0。圖片依版面裁切，原始檔未修改。
+松菸場地照片：玄史生 / Wikimedia Commons / CC0；書店空間參考：MarkBuckawicki / Wikimedia Commons / CC0（美國佛蒙特州）。
+紙上散步海報：本次專案原創向量；小安：生成的虛構示例人像；地圖：© OpenStreetMap contributors。
+
+VERIFICATION SCOPE
+Specific source licenses were verified on Commons file pages and recorded in commons-provenance.json. The three photographs were visually inspected after download. Current asset use was read from implementation source. This record is not a claim that the V3 UI interaction QA is complete; use ../../qa-v3/verification.txt for that status.

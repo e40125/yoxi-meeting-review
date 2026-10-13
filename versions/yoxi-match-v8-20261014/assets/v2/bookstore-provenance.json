@@ -1,0 +1,96 @@
+{
+  "size": 2423007,
+  "width": 3264,
+  "height": 2448,
+  "url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bookstore_Interior.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bookstore_Interior.jpg",
+  "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=30471528",
+  "extmetadata": {
+    "DateTime": {
+      "value": "2014-01-04 14:08:14",
+      "source": "mediawiki-metadata",
+      "hidden": ""
+    },
+    "ObjectName": {
+      "value": "Bookstore Interior",
+      "source": "mediawiki-metadata"
+    },
+    "CommonsMetadataExtension": {
+      "value": 1.2,
+      "source": "extension",
+      "hidden": ""
+    },
+    "Categories": {
+      "value": "2014 in Vermont|Taken with iPhone 5|CC-Zero|Self-published work|Bookshops in Vermont|Building interiors in Vermont|Uploaded with Mobile/iOS|Files with coordinates missing SDC location of creation|United States photographs taken on 2014-01-03|Interiors of bookshops in the United States|Bookshops in the United States photographed in 2014",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "Assessments": {
+      "value": "",
+      "source": "commons-categories",
+      "hidden": ""
+    },
+    "GPSLatitude": {
+      "value": "43.176900",
+      "source": "commons-desc-page"
+    },
+    "GPSLongitude": {
+      "value": "-73.056983",
+      "source": "commons-desc-page"
+    },
+    "GPSMapDatum": {
+      "value": "WGS-84",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "ImageDescription": {
+      "value": "The interior of a bookstore in Vermont.",
+      "source": "commons-desc-page"
+    },
+    "DateTimeOriginal": {
+      "value": "3 January 2014 (according to <span lang=\"en\" dir=\"ltr\"><a href=\"https://en.wikipedia.org/wiki/Exif\" class=\"extiw\" title=\"en:Exif\">Exif</a></span> data)",
+      "source": "commons-desc-page"
+    },
+    "Credit": {
+      "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+      "source": "commons-desc-page"
+    },
+    "Artist": {
+      "value": "<a href=\"//commons.wikimedia.org/wiki/User:MarkBuckawicki\" title=\"User:MarkBuckawicki\">MarkBuckawicki</a>",
+      "source": "commons-desc-page"
+    },
+    "LicenseShortName": {
+      "value": "CC0",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "UsageTerms": {
+      "value": "Creative Commons Zero, Public Domain Dedication",
+      "source": "commons-desc-page"
+    },
+    "AttributionRequired": {
+      "value": "false",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "LicenseUrl": {
+      "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "source": "commons-desc-page"
+    },
+    "Copyrighted": {
+      "value": "True",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "Restrictions": {
+      "value": "",
+      "source": "commons-desc-page",
+      "hidden": ""
+    },
+    "License": {
+      "value": "cc0",
+      "source": "commons-templates",
+      "hidden": ""
+    }
+  }
+}
