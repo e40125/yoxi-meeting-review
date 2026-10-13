@@ -1,0 +1,13 @@
+V7 verification — 2026-10-14
+
+Root and focused agents visually inspected the new phone screens and native 3D scenes through the Codex browser.
+All 30 routes checked at 375 x 812: matching screen, nonempty parent UI (except intentionally iframe-only runplay), no document horizontal overflow, no loaded image failure. New/changed phone screenshots captured at 390 x 844.
+Actual gameplay: 30-second completion produced 700 points, 10 stars, 2 collisions; pause froze timer and score; resumption completed into the result view; score appeared in the local leaderboard. A prior independent integrated run produced 650. Keyboard/touch and lane/jump checks completed. Quit during an unfinished run created no score or reward.
+Collection: actual original 3D bear and all five outfits tested, including brass 100 km pin. Selected outfit carries into game and result. First Run completion unlocks bookmark; reset relocks it. Horizontal shelf keeps selected item in view.
+Trip state: September 49.7 km/6 rides/145 min; October initially66.9/8/183. Completion changes October to70.7/9/198 with7 destination districts. Returning/reloading does not duplicate credit. Completing after viewing September correctly returns to October. Cumulative milestone uses116.6 initially,120.4 afterarrival.
+Reset verified through visible review control. V7 storage key isolated from V6.
+The browser logger contained two source-less MutationObserver errors; no matching MutationObserver implementation exists in app/vendor source. No associated product failure was reproduced. These are not claimed as resolved.
+
+Not verified/implemented: official trip API, production AI, accounts, live rivals, reward redemption, accessibility audit, physical iOS/Android device performance.
+
+Screenshot provenance: 8 new screens +4 modified entry screens are fresh V7 captures.18 unchanged screens use preserved V6 captures; v6-mine.png is explicitly the comparison baseline.

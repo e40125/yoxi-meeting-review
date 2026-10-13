@@ -1,0 +1,102 @@
+/* Photo choices, a friend's own words, and a shared trip receipt. */
+.sv-scroll{background:#fff;color:#20232a}
+.sv-daily,.sv-quiz,.sv-reveal,.sv-arrival{padding:15px 22px 25px}
+.sv-section-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:2px 0 16px}
+.sv-section-head h1,.sv-section-head h2{font-size:23px;line-height:1.3;font-weight:730;letter-spacing:-.6px}
+.sv-section-head>span{font-size:12px;color:#717782}
+.sv-section-next{margin:25px 0 13px}.sv-section-next h2{font-size:18px;letter-spacing:-.3px}
+.sv-game-feature{display:block;position:relative;isolation:isolate;text-align:left;width:100%;height:318px;overflow:hidden;border-radius:22px;padding:22px;background:#20232a;color:#fff}
+.sv-game-feature>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:45% center;z-index:-3}
+.sv-game-shade{position:absolute;inset:0;background:linear-gradient(180deg,#10121b44 0%,#10121b22 28%,#10121bb0 59%,#10121bf5 100%);z-index:-2}
+.sv-game-author{display:flex;align-items:center;gap:8px;width:max-content;font-size:12px;font-weight:650;color:#20232a;background:#ffd66b;border-radius:30px;padding:5px 10px 5px 5px}
+.sv-rui-avatar{width:24px;height:24px;display:grid;place-items:center;border-radius:50%;background:#fff6d9;font-size:12px;font-weight:700}
+.sv-game-heading{display:block;font-size:29px;font-weight:760;line-height:1.32;letter-spacing:-.8px;position:absolute;bottom:88px;left:22px;text-shadow:0 2px 14px #0005}
+.sv-start-game{height:44px;display:flex;justify-content:space-between;align-items:center;gap:9px;position:absolute;bottom:20px;left:22px;right:22px;border-radius:12px;background:#fff;color:#20232a;font-size:14px;font-weight:650;padding:0 15px}
+.sv-start-game .icon{width:16px;height:16px;fill:#e52b43;stroke:none}
+.sv-game-feature:active .sv-start-game{background:#fff0f2}
+.sv-more-games{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+.sv-more-games>button{padding:0;text-align:left;overflow:hidden;border-radius:15px;border:1px solid #eeeef1;background:#fff}
+.sv-more-games img{width:100%;height:96px;object-fit:cover}
+.sv-more-games>button>span{display:flex;align-items:center;gap:6px;padding:12px 10px}
+.sv-more-games strong{font-size:13px;line-height:1.35;font-weight:650;letter-spacing:-.2px}
+.sv-more-games .icon{width:16px;height:16px;flex-shrink:0;margin-left:auto;color:#777e86}
+.sv-cat-photo{object-position:65% 67%!important}
+.sv-skip{color:#616772;font-size:13px;min-height:44px;min-width:44px}
+.sv-trip-strip{display:flex;align-items:center;gap:8px;flex-shrink:0;background:#f5f6f8;padding:10px 22px;color:#667080;font-size:12px}
+.sv-trip-strip .icon{height:18px;width:18px}.sv-trip-strip strong{margin-left:auto;font-size:12px;font-weight:600;color:#485264}
+.sv-quiz{padding-top:22px}
+.sv-question-author{display:flex;align-items:center;gap:11px}
+.sv-question-author .avatar{width:43px;height:43px;border-radius:50%;object-fit:cover}
+.sv-question-author strong,.sv-question-author span{display:block;font-size:13px;line-height:1.55}
+.sv-question-author strong{font-weight:650}.sv-question-author span{font-size:12px;color:#767d88}
+.sv-quiz h1{font-size:29px;line-height:1.4;letter-spacing:-.6px;font-weight:750;margin:22px 0 22px}
+.sv-choices{display:grid;gap:12px}
+.sv-choice{display:flex;align-items:center;gap:14px;min-height:94px;width:100%;padding:0 15px 0 0;border-radius:16px;background:#fff;border:1.5px solid #e5e6ea;text-align:left;color:#20232a;overflow:hidden;transition:border-color .15s,background .15s}
+.sv-choice>img{width:105px;height:94px;object-fit:cover;flex-shrink:0}
+.sv-choice-copy{display:block;min-width:0}.sv-choice-copy>small{display:block;font-family:"Avenir Next",-apple-system,sans-serif;font-size:11px;font-weight:600;color:#868d97;margin-bottom:5px}
+.sv-choice-copy>strong{display:block;font-size:15px;font-weight:650;line-height:1.5}
+.sv-radio{width:22px;height:22px;border:1.5px solid #cfd3da;border-radius:50%;flex-shrink:0;display:grid;place-items:center;margin-left:auto;background:#fff}
+.sv-radio .icon{height:13px;width:13px;stroke-width:2.6}
+.sv-choice.sv-selected{border-color:#e52b43;background:#fff0f2}.sv-selected .sv-radio{background:#e52b43;border-color:#e52b43;color:#fff}
+.btn.sv-primary{background:#e52b43;color:#fff;border-radius:13px;min-height:50px;font-weight:650}
+.btn.sv-primary:disabled{background:#e5e6eb;color:#8c929b;opacity:1}
+.sv-reveal{padding-top:9px}
+.sv-answer-photo{height:226px;border-radius:18px;position:relative;overflow:hidden;background:#20232a}
+.sv-answer-photo>img{height:100%;width:100%;object-fit:cover;object-position:45% 50%}
+.sv-result-tag{position:absolute;bottom:13px;left:13px;display:flex;align-items:center;gap:5px;background:#cfeae3;color:#234d43;padding:6px 10px;border-radius:8px;font-size:12px;font-weight:650}
+.sv-result-tag .icon{width:14px;height:14px;stroke-width:2.2}
+.sv-reveal-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:20px 0 18px}
+.sv-reveal-heading h1{font-size:27px;line-height:1.35;letter-spacing:-.7px;font-weight:730}
+.sv-reveal-heading>span{font-size:11px;color:#717985;text-align:right;max-width:90px}
+.sv-answer-message{display:flex;align-items:flex-start;gap:10px}
+.sv-answer-message>.avatar{width:38px;height:38px;object-fit:cover;border-radius:50%;margin-top:4px;flex-shrink:0}
+.sv-answer-message>div{flex:1;background:#fff0f2;border-radius:5px 16px 16px 16px;padding:12px 14px}
+.sv-answer-message strong{display:block;font-size:12px;font-weight:600;color:#97616a;margin-bottom:6px}
+.sv-answer-message p{font-size:15px;line-height:1.8;color:#35353c;font-weight:450}
+.sv-talk-prompt{margin:24px 1px 0;padding-top:20px;border-top:1px solid #e9ebef}
+.sv-talk-prompt>span{display:flex;align-items:center;gap:7px;color:#707784;font-size:12px}
+.sv-talk-prompt .icon{width:17px;height:17px}
+.sv-talk-prompt p{font-size:21px;line-height:1.5;letter-spacing:-.5px;font-weight:650;margin-top:10px}
+.sv-arrival{padding-top:8px;padding-bottom:22px}
+.sv-destination{position:relative;height:140px;border-radius:18px;overflow:hidden;background:#e8eeee}
+.sv-destination>img{height:100%;width:100%;object-fit:cover;object-position:center 68%}
+.sv-destination>span{position:absolute;left:12px;bottom:12px;display:flex;align-items:center;gap:5px;background:#cfeae3;padding:6px 11px;font-size:12px;font-weight:600;color:#285245;border-radius:8px}
+.sv-destination>span .icon{width:13px;height:13px;stroke-width:2.2}
+.sv-arrival-heading{display:flex;align-items:baseline;justify-content:space-between;gap:9px;margin:18px 0 15px}
+.sv-arrival-heading h1{font-size:25px;line-height:1.4;font-weight:730;letter-spacing:-.8px}
+.sv-arrival-heading>span{font-size:12px;color:#687280;white-space:nowrap}
+.sv-friend-row{display:flex;align-items:center;gap:11px;padding:14px;background:#fff0f2;border-radius:14px;margin-bottom:18px}
+.sv-friend-row .avatar{width:43px;height:43px;border-radius:50%;object-fit:cover}
+.sv-friend-row>div{flex:1;min-width:0}.sv-friend-row strong{display:block;font-size:14px;font-weight:650}.sv-friend-row>div>span{display:block;font-size:11px;color:#787383;margin-top:3px}
+.sv-add-friend{display:flex;align-items:center;justify-content:center;gap:4px;border:1px solid #edbfc7;border-radius:10px;min-height:38px;padding:8px 10px;color:#c32037;background:#fff;font-size:12px;font-weight:650;white-space:nowrap}
+.sv-add-friend .icon{width:14px;height:14px;stroke-width:2}.sv-add-friend.sv-friend-sent:disabled{background:#fff8f9;border-color:#f0dade;color:#74656a;opacity:1;cursor:default}
+.sv-receipt{position:relative;border:1px solid #e4e7e8;border-radius:17px;padding:17px 16px 15px;background:#fff}
+.sv-receipt-route{display:flex;align-items:center;gap:12px}
+.sv-receipt-route>div{flex:1;min-width:0}.sv-receipt-route>div:last-child{flex:0 0 97px}
+.sv-receipt-route span{display:block;font-size:11px;color:#6f7881;line-height:1.4}
+.sv-receipt-route strong{display:block;font-size:12px;font-weight:600;margin-top:4px;line-height:1.6}
+.sv-receipt-route time{display:block;font-family:"Avenir Next",-apple-system,sans-serif;font-size:15px;font-weight:650;margin-top:2px;line-height:1.45}
+.sv-receipt-route .sv-route-arrow{display:flex;align-items:center;justify-content:center;flex-shrink:0;color:#a0a7af}
+.sv-route-arrow .icon{width:24px;height:20px}
+.sv-ticket-tear{position:relative;border-top:1px dashed #d9dfe1;margin:17px -16px 17px}
+.sv-ticket-tear:before,.sv-ticket-tear:after{content:"";position:absolute;top:-7px;width:13px;height:13px;border:1px solid #e4e7e8;border-radius:50%;background:#fff}
+.sv-ticket-tear:before{left:-7px;clip-path:inset(0 0 0 50%)}.sv-ticket-tear:after{right:-7px;clip-path:inset(0 50% 0 0)}
+.sv-receipt-fare{display:flex;align-items:baseline;justify-content:space-between}
+.sv-receipt-fare>span{font-size:13px;color:#535d6b}.sv-receipt-fare>strong{font-family:"Avenir Next",-apple-system,sans-serif;font-weight:750;font-size:31px;line-height:1.2;letter-spacing:-.7px}.sv-receipt-fare small{font-size:13px;font-weight:550;letter-spacing:0;margin-right:6px}
+.sv-fare-detail{display:flex;justify-content:space-between;gap:8px;color:#687280;font-size:11px;margin-top:8px}
+.sv-collection-link{display:flex;align-items:center;gap:9px;width:100%;min-height:54px;text-align:left;font-size:13px;font-weight:550;padding:17px 0 0}
+.sv-collection-link>.icon{width:18px;height:18px;color:#687385}.sv-collection-link>.icon:last-child{margin-left:auto;width:15px}
+@media(max-width:374px){.sv-daily,.sv-quiz,.sv-reveal,.sv-arrival{padding-left:18px;padding-right:18px}.sv-game-feature{height:304px}.sv-game-heading{font-size:27px}.sv-quiz h1{font-size:27px}.sv-choice{gap:11px;padding-right:12px}.sv-choice>img{width:96px}.sv-choice-copy>strong{font-size:14px}.sv-answer-photo{height:208px}.sv-answer-message p{font-size:14px}.sv-talk-prompt p{font-size:20px}.sv-friend-row{padding:12px;gap:9px}.sv-friend-row>div>span{font-size:10px}.sv-receipt-route>div:last-child{flex-basis:88px}.sv-receipt-route strong{font-size:11px}.sv-more-games strong{font-size:12px}}
+@media(prefers-reduced-motion:reduce){.sv-choice{transition:none}}
+
+/* Three equally prominent photo choices; no survey-style horizontal rows. */
+.sv-quiz .sv-choices{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;align-items:stretch}
+.sv-quiz .sv-choice{position:relative;display:flex;flex-direction:column;align-items:stretch;gap:0;min-width:0;min-height:0;padding:0;border-radius:15px}
+.sv-quiz .sv-choice>img{display:block;width:100%;height:190px;min-width:0;object-fit:cover;object-position:45% 50%;flex-shrink:0}
+.sv-quiz .sv-choice-copy{display:flex;align-items:center;justify-content:center;flex:1;min-width:0;width:100%;min-height:58px;padding:12px 5px;text-align:center}
+.sv-quiz .sv-choice-copy>small{display:none}
+.sv-quiz .sv-choice-copy>strong{min-width:0;font-size:15px;line-height:1.5;letter-spacing:-.35px;font-weight:650;white-space:normal;overflow-wrap:break-word}
+.sv-quiz .sv-radio{position:absolute;top:9px;right:9px;margin:0;width:24px;height:24px;background:#fffffff0;border-color:#fff;box-shadow:0 1px 5px #0002}
+.sv-quiz .sv-choice.sv-selected{border-color:#e52b43;box-shadow:0 0 0 1px #e52b43;background:#fff0f2}
+.sv-quiz .sv-selected .sv-radio{background:#e52b43;border-color:#fff;color:#fff}
+@media(max-width:375px){.sv-quiz .sv-choices{gap:8px}.sv-quiz .sv-choice{padding:0;gap:0;border-radius:13px}.sv-quiz .sv-choice>img{width:100%;height:180px}.sv-quiz .sv-choice-copy{padding:11px 4px;min-height:55px}.sv-quiz .sv-choice-copy>strong{font-size:14px;letter-spacing:-.2px}.sv-quiz .sv-radio{top:8px;right:8px;width:23px;height:23px}}

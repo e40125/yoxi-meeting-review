@@ -1,0 +1,113 @@
+/* The festival supplies the atmosphere; friends and conversation have a quieter place inside it. */
+[data-screen="daily"] .s4-scroll{background:#f8faf7}
+.s4-daily{padding:15px 19px 24px}
+.s5-outing{border:1px solid #e2e8df;border-radius:22px;background:#fff;padding:17px;box-shadow:0 4px 18px #18392c05}
+.s5-outing .s4-outing-author>div>span{font-size:11px;color:#7a847b}
+.s5-outing .s4-date-stamp{border-color:#dbe2d4;color:#658069;font-weight:650;min-width:43px}
+.s5-outing .s4-date-stamp b{color:#28563d}
+.s5-outing h1{font-size:31px;line-height:1.26;letter-spacing:-1.2px;color:#203e2d;margin:18px 0 18px;position:relative}
+.s5-title-note{position:absolute;right:12px;bottom:9px;display:grid;place-items:center;height:43px;width:43px;border-radius:50%;background:#f4d65c;transform:rotate(9deg)}
+.s5-title-note .icon{width:23px;height:23px;stroke-width:1.8}
+.s5-outing-photo{height:240px;background:#709865;border-radius:13px;isolation:isolate}
+.s5-outing-photo:after{content:"";position:absolute;inset:35% 0 0;background:linear-gradient(transparent,#113014ac);pointer-events:none;z-index:0}
+.s5-outing-photo>img{object-position:49% 52%;transition:transform .3s ease}
+.s5-outing-photo:hover>img{transform:scale(1.025)}
+.s5-outing-photo>.s5-photo-credit{position:absolute;top:10px;left:10px;padding:5px 7px;border-radius:4px;background:#173721a1;color:#fff;font-size:9px;font-weight:500;z-index:1;line-height:1.35;letter-spacing:.2px}
+.s5-outing-photo>.s5-photo-event{position:absolute;left:14px;right:45px;bottom:15px;display:block;border-radius:0;padding:0;background:none;color:#fff;font-weight:500;box-shadow:none;z-index:1}
+.s5-photo-event strong{display:block;font-size:21px;line-height:1.3;font-weight:750;letter-spacing:-.5px;text-shadow:0 1px 10px #17382138}
+.s5-photo-event small{display:block;font-size:11px;line-height:1.4;margin-top:6px;opacity:.9}
+.s5-outing-photo>.s5-photo-arrow{position:absolute;right:12px;bottom:20px;height:28px;width:28px;border:1px solid #ffffff70;border-radius:50%;display:grid;place-items:center;background:#ffffff16;padding:0;color:#fff;box-shadow:none;z-index:1}
+.s5-photo-arrow .icon{width:16px;height:16px}
+.s5-outing .s4-outing-facts{gap:6px 11px;align-items:center;padding:15px 0;color:#536456;font-size:10px;white-space:nowrap}
+.s5-outing .s4-outing-facts .icon{width:13px;height:13px}
+.s5-outing .s4-outing-facts b{font-size:10px;font-weight:650;line-height:1.3;color:#496638;background:#eef3dc;padding:4px 6px;border-radius:5px;margin-left:auto}
+.s5-outing .s4-plan-actions{grid-template-columns:1.3fr 1fr;gap:9px}
+.s5-outing .s4-plan-interest,.s5-outing .s4-invite{min-height:44px;border-radius:10px;font-size:13px}
+.s5-outing .s4-invite{border-color:#dce3d7;background:#fbfcf9;color:#35533c}
+.s5-activity-guide{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:15px 0 0}
+.s5-activity-guide>button{display:flex;align-items:center;gap:6px;min-width:0;padding:10px 7px;border-radius:10px;text-align:left;background:#edf2e6;color:#375c3e;min-height:43px}
+.s5-activity-guide>button:nth-child(2){background:#fff2d1;color:#745527}
+.s5-activity-guide>button:nth-child(3){background:#e7edf7;color:#476079}
+.s5-activity-guide>button>span{display:grid;place-items:center;flex-shrink:0}
+.s5-activity-guide>button>span>.icon{width:15px;height:15px}
+.s5-activity-guide>button>strong{font-size:10px;font-weight:650;white-space:nowrap;flex:1}
+.s5-activity-guide>button>.icon{width:11px;height:11px;flex-shrink:0;opacity:.6}
+.s4-daily .s4-prompt-entry{margin-top:14px;border-radius:14px;background:#fff;border:1px solid #e2e8df;box-shadow:none;min-height:72px;padding:12px}
+.s4-daily .s4-prompt-icon{width:37px;height:37px;background:#eef2e0;color:#6a8141;border-radius:11px;transform:none}
+.s4-daily .s4-prompt-icon>.icon{height:20px;width:20px}
+.s4-daily .s4-prompt-entry strong{font-size:14px;color:#35513d}
+.s4-daily .s4-prompt-entry small{font-size:10px;color:#7a8579}
+.s4-daily .s4-prompt-entry>.icon{color:#899780}
+/* Small, original illustrations carry each answer without making it feel like a test. */
+.s5-art{display:block;width:100%;position:relative;background:#e0eddf;overflow:hidden}
+.s5-art svg{display:block;width:100%;height:100%}
+.s5-art-market{background:#fbe8b9}
+.s5-art-chair{background:#e7edd4}
+.s5-art-sing{background:#f8dfd7}
+.s5-art-headphones{background:#dfebdf}
+.s5-art-record{background:#eee2f4}
+.s5-question{padding-top:27px}
+.s5-question h1{font-size:31px;line-height:1.4;letter-spacing:-1px;color:#213e2e;margin:30px 0 9px}
+.s5-question .s4-question-guide{font-size:12px;margin-bottom:27px;color:#7a847a}
+.s5-choices{gap:9px}
+.s5-choices .s4-choice{border:2px solid transparent;border-radius:15px;background:#f6f8f3;box-shadow:0 0 0 1px #e2e8de}
+.s5-choices .s4-choice>.s5-art{height:190px;display:grid;place-items:center;border-radius:12px 12px 0 0}
+.s5-choices .s5-art svg{width:100%;height:auto;max-height:173px}
+.s5-choices .s4-check{width:21px;height:21px;top:9px;right:8px;border:1px solid #ffffffcc;box-shadow:0 1px 4px #274e3517;background:#ffffffab}
+.s5-choices .s4-choice>strong{font-size:13px;min-height:52px;color:#35543c;line-height:1.45;letter-spacing:-.4px;background:#fff}
+.s5-choices .s4-choice.is-selected{border-color:#376b46;box-shadow:0 0 0 1px #376b46;transform:translateY(-3px)}
+.s5-choices .s4-choice.is-selected>strong{background:#eef5e9;color:#2c613c}
+.s5-choices .s4-choice.is-selected .s4-check{background:#376b46;color:#fff;border-color:#fff}
+.s5-question .s4-ready{margin-top:26px;border-color:#e5ebe0;padding-top:19px;color:#6d7d6c}
+.s5-question-context{display:flex;align-items:center;gap:6px;color:#8c9787;font-size:10px;margin-top:24px}
+.s5-question-context .icon{width:13px;height:13px}
+.s5-reveal h1{color:#234131;line-height:1.35}
+.s5-answer-pair article{background:#f7f9f4;border-color:#e3e9dc;border-radius:16px;padding:10px}
+.s5-answer-pair article:first-child{background:#f7f8f4;border-color:#e4e7dc}
+.s5-answer-pair article>.s5-art{height:143px;border-radius:10px}
+.s5-answer-pair article>.s5-art svg{height:100%;width:100%}
+.s5-answer-pair article>strong{padding-top:12px}
+.s5-reveal .s4-reply{background:#eef4e5;border-radius:13px;padding:13px}
+.s5-reveal .s4-reply p{color:#496044;font-size:13px}
+.s5-reveal .s4-talk{margin-top:22px}
+.s5-reveal .s4-talk h2{font-size:21px;color:#294b32;line-height:1.5}
+.s5-arrival{padding-top:13px}
+.s5-arrived-stamp{display:flex;gap:12px;align-items:center;margin:3px 0 21px}
+.s5-arrived-stamp>span{display:grid;place-items:center;width:49px;height:49px;border-radius:50%;color:#3d6f3f;background:#ecf3d4}
+.s5-arrived-stamp>span .icon{height:25px;width:25px;stroke-width:2}
+.s5-arrived-stamp small{font-size:10px;color:#84907f}
+.s5-arrived-stamp h1{font-size:27px;line-height:1.3;letter-spacing:-.8px;margin-top:4px;color:#28482f}
+.s5-arrival .s4-arrival-photo{height:166px;border-radius:15px}
+.s5-arrival .s4-arrival-photo img{object-fit:cover;object-position:left center}
+.s5-arrival .s4-arrival-photo>span{font-size:10px;background:#ffffffeb;color:#47613d;padding:7px 9px}
+.s5-arrival .s4-arrival-heading{margin:19px 0 12px}
+.s5-arrival .s4-arrival-heading h2{font-size:22px;letter-spacing:-.6px;color:#2a4934;font-weight:700;margin-top:4px;line-height:1.35}
+.s5-arrival .s4-arrival-heading>.icon{width:23px;height:23px}
+.s5-arrival .s4-event-row{border-color:#e5e8d5;background:#f8faef}
+.s5-arrival .s4-event-row>img{object-fit:cover;object-position:center;width:57px;height:64px}
+.s5-arrival .s4-event-row strong{font-size:15px}
+.s5-arrival .s4-event-row small{font-size:10px}
+.s5-guide-modal>.s5-art{width:100px;height:112px;border-radius:17px;margin:0 0 19px}
+.s5-guide-modal h2{font-size:25px;color:#24462e;margin:0 0 10px}
+.s5-guide-modal>p{font-size:14px;line-height:1.8;color:#61705f;margin:0 0 18px}
+.s5-guide-facts{font-size:12px;line-height:1.8;color:#7e8878;padding:14px 0 18px;border-top:1px solid #e6eade}
+.s5-activity-guide>button:focus-visible{outline:3px solid #397648;outline-offset:3px}
+@media(max-width:375px){
+  .s4-daily{padding-left:16px;padding-right:16px}
+  .s5-outing{padding:15px}
+  .s5-outing h1{font-size:30px}
+  .s5-outing-photo{height:232px}
+  .s5-outing .s4-outing-facts{gap:6px 8px;font-size:9px}
+  .s5-outing .s4-outing-facts b{font-size:9px}
+  .s5-photo-event strong{font-size:20px}
+  .s5-activity-guide>button{gap:4px;padding:10px 6px}
+  .s5-activity-guide>button>strong{font-size:10px}
+  .s5-activity-guide>button>span>.icon{width:14px;height:14px}
+  .s5-question h1{font-size:29px}
+  .s5-choices{gap:8px}
+  .s5-choices .s4-choice>.s5-art{height:179px}
+  .s5-choices .s4-choice>strong{font-size:12px;min-height:49px}
+  .s5-answer-pair article>.s5-art{height:137px}
+  .s5-reveal .s4-talk h2{font-size:20px}
+}
+@media(prefers-reduced-motion:reduce){.s5-outing-photo>img{transition:none}}

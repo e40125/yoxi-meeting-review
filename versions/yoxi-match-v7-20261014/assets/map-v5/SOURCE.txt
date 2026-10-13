@@ -1,0 +1,19 @@
+V5 Taipei Main Station → Yuanshan Expo Park map
+Updated 2026-10-13.
+
+Basemap: OpenStreetMap standard raster tiles, zoom 13.
+Six tiles already fetched for the local Taipei viewport on 2026-10-13 are reused. They fully cover the new viewport centered at 25.0592 N, 121.5200 E (390×290 logical pixels; compact390×200). This update did not request additional tiles.
+Tiles: zoom13, x6860–6862, y3506–3507.
+Source: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+Attribution: © OpenStreetMap contributors
+Copyright and data license: https://www.openstreetmap.org/copyright
+Map data: Open Data Commons Open Database License (ODbL).
+
+Coordinate references
+- Destination park coordinate: 25.070753, 121.520480, Tourism Administration official attraction entry, https://www.taiwan.net.tw/m1.aspx?id=A12-00140&sNo=0001090 (checked2026-10-13). This is a park reference point, not a booked curbside drop-off coordinate or exact event-stage location.
+- Taipei Main Station east gate point: 25.04774,121.51829, OSM node4753887133, https://www.openstreetmap.org/node/4753887133 ; corresponding readable map entry https://mapcarta.com/N4753887133 (checked2026-10-13). This is approximate station context, not confirmation of a legal taxi pickup bay.
+- Route points follow the northward Chengde Road corridor through the Minquan West Road area, using visible map street geography. Intermediate coordinates are drawn by hand to explain geography; they are not a routing-engine output.
+- Planned13:30→13:45 and NT$120/person are scenario values, not map travel-time or fare predictions.
+- Enroute vehicle and Minquan West Road pickup markers are illustrative, not live tracking or a dispatched stop.
+
+The displayed SVG explicitly labels the route/vehicle as illustrative and keeps linked OSM attribution visible.
