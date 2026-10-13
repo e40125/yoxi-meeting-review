@@ -1,0 +1,34 @@
+yoxi MATCH v2 verification — 2026-10-13
+
+Implemented and verified in Codex in-app browser:
+- All 17 screens render. 390×844 visual review and screenshot capture; 375×812 compact layout sweep shows no horizontal overflow, no completed broken images, and visible fixed action/navigation areas.
+- Sample content import → edit interests → return to confirmation → save to My collection.
+- Custom content and manually edited place retained in a separate saved collection entry.
+- Category filter closes its sheet and produces an actionable empty state; reset restores demo event.
+- Event → matching ride → companion profile → terms. Request disabled before consent. Fare disclosure expands correctly.
+- Request sent; a second same-origin tab accepts; first tab visibly updates to accepted.
+- Accepted ride shows existing trip instead of inviting another request. Request handler also guards active requests.
+- Booking action exposes the explicit simulated dispatch boundary.
+- In-ride wrong choice remains visible in answer reveal; selected control keeps focus after rerender.
+- Arrival friend invite becomes pending and disables duplicate sending.
+- Independent daily friend quiz displays answer; user question draft persists after reload.
+- Open ride planned/enroute setting, two-seat selection, detour preference persist after reload.
+- Existing friend Arui is available from My friends and daily play.
+- Gallery filter switches to three play screens; comparison and official-reference links present.
+- No error/warn logs in local main prototype browser during tested journey.
+- JavaScript syntax checks passed for app.js, v2.js and social-v2.js.
+
+Visual fixes from review:
+- Saved-card bookmark is now a 40×40 circular control.
+- Profile/event image captures repeated after decoded images painted; original blank captures were timing artifacts.
+- Open-ride confirmation note stays above action; spacing now reveals the promotion at 390×844.
+- Relevant fare/route/quiz metadata enlarged and darkened.
+- Actual yoxi mark present inside standalone mobile home.
+
+Not verified / not implemented:
+- Real AI content parsing, real event inventory, real rider matching, multi-device accounts, live cars, dispatch, payments or promo redemption.
+- Formal accessibility conformance, native iOS/Android device behavior, production load/security testing.
+- No new video recording in this design pass.
+- This report does not equate visual/layout checks with complete accessibility coverage.
+
+Public deployment is verified separately in the release publication record after deployment.
