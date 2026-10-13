@@ -1,0 +1,124 @@
+V6 音樂選擇示例｜來源與核對
+核對日期：2026-10-13
+
+選曲性質
+這六首是本案選定的台灣音樂示例，不是即時排行榜、最新熱門榜或自動推薦結果。未使用使用者的 Spotify／Apple Music 聆聽紀錄，不代表演出卡司，也未與藝人、唱片公司或串流服務合作。歌名、藝人、專輯依 Apple 台灣資料原文；歌名沒有改寫。孫盛希採《想見你》電影原聲帶版，因此標題是「眼淚記得你」，不是含電影主題曲副標的單曲版本。落日飛車的官方網站稱 JINJI KIKKO 為 EP；Apple 本筆資料的專輯名稱含 Single，此處保留 Apple 原文。
+
+資料檔
+catalog.json：六筆曲目資料。
+catalog.js：相同資料，以 window.YOXI_MUSIC_CATALOG 載入。
+apple-lookup.json：官方 track lookup 原始回傳紀錄。
+apple-albums.json：官方 album lookup 原始回傳紀錄。
+六張 JPG：Apple 官方 artwork CDN 提供的 600×600 正方形封面，未修圖或 AI 生成。為介面參考下載，未主張取得開放授權。
+
+官方 metadata 來源
+https://itunes.apple.com/lookup?id=1492688176,1554431596,1533697835,1726978526,1753222327,1665555798&country=TW
+https://itunes.apple.com/lookup?id=1492688175,1554431588,1533697834,1726978518,1753222324,1665555766&country=TW
+
+封面與音訊權利
+封面仍屬各自權利人；資料中的 ℗ 是錄音版權聲明，不能據此推定封面攝影／設計的著作權人。Apple 的 API 可查閱，不表示資產成為公版，也不表示可作任何商業用途。未取得個別封面再利用或歌曲公播授權。檔案用於產品介面參考，正式使用需依相應權利與服務條款。
+
+試聽查核與實作建議
+六筆 previewUrl 都由 Apple 官方 lookup 回傳；2026-10-13 對每個 URL 送 HEAD，均回 HTTP 200、Content-Type audio/x-m4p。未下載、儲存、快取或轉檔音訊，沒有保存歌詞或完整歌曲。HEAD 成功只驗證端點回應，不等同瀏覽器實際可播放、可跨網域使用或可永久使用；片段長度未量測，不能標稱固定30秒。
+
+Apple iTunes Search API 官方文件：
+https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/
+該頁將專輯封面與試聽列為促銷內容，目的限推廣對應商店內容，要求鄰近指定商店連結／徽章。試聽須署名 provided courtesy of iTunes 且只能串流，不得下載、快取或同步影片；不可提供獨立娛樂價值或用於推廣其他商品／服務。
+
+本原型較明確的做法：提供使用者主動開啟的「在 Apple Music 聽」連結，讓平台處理播放。不要因 API 回傳 previewUrl，就宣稱 yoxi 已有播放授權、串流整合或同步車內音樂能力。若要實作內嵌試聽，應先確定該使用方式與權利，再處理使用者點擊播放、載入失敗、暫停及不能播放時的原站連結。不得下載音檔到 GitHub Pages。
+
+曲目紀錄
+
+1. 帶我去找夜生活 — 告五人
+ID: night-life
+Album: 帶我去找夜生活 - Single
+Track ID: 1492688176
+Recording copyright: ℗ 2019 Bin Music International Limited
+Apple track: https://music.apple.com/tw/album/%E5%B8%B6%E6%88%91%E5%8E%BB%E6%89%BE%E5%A4%9C%E7%94%9F%E6%B4%BB/1492688175?i=1492688176&uo=4
+Apple API cover: https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d2/89/94/d2899436-f343-8e02-6e0b-c316c41697ee/picture2.jpg/100x100bb.jpg
+Downloaded 600px cover: https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/d2/89/94/d2899436-f343-8e02-6e0b-c316c41697ee/picture2.jpg/600x600bb.jpg
+Local file: night-life.jpg, 600×600, 92829 bytes
+SHA-256: aa42500abe9a26d9c4d8bffb7ba41e171b0ace54b152e4a4e4439579125301a3
+Preview endpoint (not downloaded): https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/29/43/ea/2943ea8a-fff5-9387-756f-dc7c7a66d56f/mzaf_5114626731721012870.plus.aac.p.m4a
+Preview HEAD: {"status": 200, "contentType": "audio/x-m4p", "contentLength": "983589"}
+Artist/label cross-reference:
+https://www.bin-music.com.tw/news/1129
+https://www.youtube.com/watch?v=VJjN_yxKnL8
+
+2. 戀愛ing — 五月天
+ID: love-ing
+Album: 知足 just my pride 最真傑作選
+Track ID: 1554431596
+Recording copyright: ℗ 2005 Rock Records Co., Ltd.
+Apple track: https://music.apple.com/tw/album/%E6%88%80%E6%84%9Bing/1554431588?i=1554431596&uo=4
+Apple API cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/70/29/40/7029402a-3537-450c-cca3-287e27c0a573/4710149684318.jpg/100x100bb.jpg
+Downloaded 600px cover: https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/70/29/40/7029402a-3537-450c-cca3-287e27c0a573/4710149684318.jpg/600x600bb.jpg
+Local file: love-ing.jpg, 600×600, 96540 bytes
+SHA-256: 1de12a86b03e738a8d2cbd25791da31af72cdc8b0316c1538a99a60d2c6c88b3
+Preview endpoint (not downloaded): https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/6d/42/02/6d4202a4-3a20-e799-2b08-1a596cdff009/mzaf_17302376051483179336.plus.aac.p.m4a
+Preview HEAD: {"status": 200, "contentType": "audio/x-m4p", "contentLength": "1010230"}
+Artist/label cross-reference:
+https://www.bin-music.com.tw/news/2378
+
+3. 不是因為天氣晴朗才愛你 — 理想混蛋
+ID: sunny-love
+Album: 不是因為天氣晴朗才愛你 - Single
+Track ID: 1533697835
+Recording copyright: ℗ 2018 何樂音樂Pqpmusic
+Apple track: https://music.apple.com/tw/album/%E4%B8%8D%E6%98%AF%E5%9B%A0%E7%82%BA%E5%A4%A9%E6%B0%A3%E6%99%B4%E6%9C%97%E6%89%8D%E6%84%9B%E4%BD%A0/1533697834?i=1533697835&uo=4
+Apple API cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/99/d8/ce/99d8cead-38ae-d53b-1f43-aaa9726ed595/cover.jpg/100x100bb.jpg
+Downloaded 600px cover: https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/99/d8/ce/99d8cead-38ae-d53b-1f43-aaa9726ed595/cover.jpg/600x600bb.jpg
+Local file: sunny-love.jpg, 600×600, 120461 bytes
+SHA-256: 67a6e602f351dce4729723b5909cecfde792f8069a888d7eb033dfabecdc928c
+Preview endpoint (not downloaded): https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/67/3c/65673cd4-870e-47c3-4fde-876f5e2614b2/mzaf_2061870496733172225.plus.aac.p.m4a
+Preview HEAD: {"status": 200, "contentType": "audio/x-m4p", "contentLength": "968860"}
+Artist/label cross-reference:
+https://www.youtube.com/watch?v=9_068Ekk_fs
+https://www.youtube.com/watch?v=Fh1yD5pVhMc
+
+4. 浪子回頭 — 茄子蛋
+ID: back-here
+Album: 卡通人物
+Track ID: 1726978526
+Recording copyright: ℗ 2017 艾格普蘭特艾格有限公司
+Apple track: https://music.apple.com/tw/album/%E6%B5%AA%E5%AD%90%E5%9B%9E%E9%A0%AD/1726978518?i=1726978526&uo=4
+Apple API cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/98/fc/97/98fc9712-1d85-708c-fe22-35734176f445/5054197969614.jpg/100x100bb.jpg
+Downloaded 600px cover: https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/98/fc/97/98fc9712-1d85-708c-fe22-35734176f445/5054197969614.jpg/600x600bb.jpg
+Local file: back-here.jpg, 600×600, 114433 bytes
+SHA-256: d12bed92f4411f81823e7b2be0a27a15a2ae0ce62c1c2141311961722a9f6f05
+Preview endpoint (not downloaded): https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/19/31/2e/19312e5e-3fcb-c59c-fe35-6fe431bfad67/mzaf_14325981858551569708.plus.aac.p.m4a
+Preview HEAD: {"status": 200, "contentType": "audio/x-m4p", "contentLength": "1057507"}
+Artist/label cross-reference:
+https://www.youtube.com/watch?v=x3bDhtuC5yk
+
+5. My Jinji — 落日飛車
+ID: my-jinji
+Album: JINJI KIKKO - Single
+Track ID: 1753222327
+Recording copyright: ℗ 2016 Sunset Music Production Co.
+Apple track: https://music.apple.com/tw/album/my-jinji/1753222324?i=1753222327&uo=4
+Apple API cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/d8/2a/11d82a9a-af9c-4aba-3f3d-f2443cb7f8c8/5021732418715.jpg/100x100bb.jpg
+Downloaded 600px cover: https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/d8/2a/11d82a9a-af9c-4aba-3f3d-f2443cb7f8c8/5021732418715.jpg/600x600bb.jpg
+Local file: my-jinji.jpg, 600×600, 57691 bytes
+SHA-256: 94c40087cf70f3dd804b0bcb6ede5fe572b6eb3c5640cf196930e86cd9bf28a9
+Preview endpoint (not downloaded): https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/61/31/af61312d-e5d8-9885-11e5-f9fabab6a894/mzaf_5761505061943548664.plus.aac.p.m4a
+Preview HEAD: {"status": 200, "contentType": "audio/x-m4p", "contentLength": "1047333"}
+Artist/label cross-reference:
+https://www.sunsetrollercoaster.com/discography
+https://www.sunsetrollercoaster.com/video
+
+6. 眼淚記得你 — 孫盛希
+ID: tears-remember
+Album: 《想見你》電影原聲帶
+Track ID: 1665555798
+Recording copyright: ℗ 2023 Rock Records Co., Ltd.
+Apple track: https://music.apple.com/tw/album/%E7%9C%BC%E6%B7%9A%E8%A8%98%E5%BE%97%E4%BD%A0/1665555766?i=1665555798&uo=4
+Apple API cover: https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a9/bf/5f/a9bf5fa2-d2c7-7233-9cf8-69d7793b1efc/4710149698223_cover.jpg/100x100bb.jpg
+Downloaded 600px cover: https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/a9/bf/5f/a9bf5fa2-d2c7-7233-9cf8-69d7793b1efc/4710149698223_cover.jpg/600x600bb.jpg
+Local file: tears-remember.jpg, 600×600, 90155 bytes
+SHA-256: e4aa43ab82d6aedb9b160d3ddb07ca649f6949c7e4bb8a73ba8730ce55024939
+Preview endpoint (not downloaded): https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview123/v4/47/2e/c8/472ec86d-658f-2248-21c2-be0c493e3d0f/mzaf_10020880856705039253.plus.aac.p.m4a
+Preview HEAD: {"status": 200, "contentType": "audio/x-m4p", "contentLength": "991451"}
+Artist/label cross-reference:
+https://rock.com.tw/rock/news/52
+https://www.youtube.com/watch?v=oMODfWEyCIQ

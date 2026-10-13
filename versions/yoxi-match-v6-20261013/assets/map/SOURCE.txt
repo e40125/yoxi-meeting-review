@@ -1,0 +1,8 @@
+Basemap: OpenStreetMap standard raster tiles, zoom 13, six tiles fetched for this local viewport on 2026-10-13.
+Source: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+Attribution: © OpenStreetMap contributors
+Copyright: https://www.openstreetmap.org/copyright
+Map data license: Open Data Commons Open Database License (ODbL), as documented on the official copyright page (checked 2026-10-13).
+The visible map attribution links to the official copyright/license page. No claim is made that OSM documentation's CC BY-SA license is the map-data license.
+Route overlay is an illustrative prototype route, not navigation or real-time vehicle tracking.
+CARTO was first attempted but returned an API-key-required placeholder. Those files were replaced with actual OSM tiles. No CARTO imagery is used.

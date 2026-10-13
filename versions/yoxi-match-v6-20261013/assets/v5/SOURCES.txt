@@ -1,0 +1,73 @@
+yoxi MATCH! V5 — 活動、照片與來源
+核對日期：2026-10-13
+
+本版以真實公開活動作為介面示例。yoxi MATCH! 原型與 JINS、活動主辦或花博場館之間，未確認任何合作、贊助或訂票關係。同行者、行程與優惠仍為示範。
+
+【活動資料】
+活動：JINS 動物平權《野餐我 PET 你 滾草皮音樂市集》
+日期：2026 年 10 月 17–18 日
+地點：花博公園圓山園區；場館公告為花海廣場、環形廣場
+入場：免費入場；市集消費及各項體驗條件依主辦公告
+主辦：JINS TAIWAN
+
+主辦公告（2026-10-02）：
+https://www.jins.com/tw/news/news-6abf4a6ac3cd0
+14:00–19:00；音樂演出、人寵共享市集、毛孩講座、摩天輪、360 拍貼機與公益活動。
+
+場館公告（2026-10-05 更新）：
+https://www.expopark.taipei/News_Photo_Content.aspx?n=247&s=4570&sms=9029
+14:00–18:00；花海廣場、環形廣場。
+
+場館每週活動表：
+https://www.expopark.taipei/News_Content.aspx?n=91&s=4576
+同樣標示 14:00–18:00。
+
+時間差異：本版顯示主辦公告 14:00–19:00；場館頁的結束時間不同，未取得主辦補充確認。不能說各來源已一致。
+
+【華山場活動照片】
+檔案 event-hero.jpg / music.jpg / community.jpg
+出處：https://market.ltn.com.tw/article/18396
+交叉核對：https://www.nownews.com/news/6809290
+活動期別：2026-04-18–19，華山大草原。不是 10 月花博場的照片。
+署名：JINS／JINS Taiwan 提供，未列攝影者姓名。
+授權狀態：未查到 Creative Commons 或其他開放再利用授權。公開新聞照片用於本提案介面的資料參考，未確認另外取得商業再利用許可；署名不等於授權。
+
+- event-hero.jpg，1000×750，491036 bytes
+  草地野餐、人群、吉他裝置。介面標「華山場活動照」。
+  https://img.ltn.com.tw/Upload/market/page/2026/04/20/260420-18396-1-4ixru.jpg
+- music.jpg，1000×667，396879 bytes
+  小球（莊鵑瑛）、主持人與現場觀眾合照；不代表 10 月演出陣容。
+  https://img.ltn.com.tw/Upload/market/page/2026/04/20/260420-18396-3-sSnMq.jpg
+- community.jpg，1000×724，349233 bytes
+  寵物互動課程，不能當作美食或購物市集照片。
+  https://img.ltn.com.tw/Upload/market/page/2026/04/20/260420-18396-4-g0myz.jpg
+
+【10 月官方海報】
+檔案 official-poster.jpg，470×470，41262 bytes
+圖上日期為 10/17–18，地點為花博公園圓山園區；圖上沒有每日起訖時間。
+品牌／活動主辦：JINS。刊載：財團法人臺北市會展產業發展基金會。
+來源：
+https://www.expopark.taipei/News_Photo_Content.aspx?n=247&s=4570&sms=9029
+原檔：
+https://ws.expopark.taipei/001/Upload/400/relpic/9029/4570/171fb2e6-ddfc-4e4b-bb30-86519fb038f7@710x470.jpg
+未查到開放再利用授權；保留官方海報原貌，作為活動資料參考。未確認取得額外商業授權。
+
+【花博場地圖片】
+刊載／署名：財團法人臺北市會展產業發展基金會／花博公園。
+攝影者及拍攝日期未列；未查到開放再利用授權，作為場地資料參考。未確認取得額外商業授權。
+
+- venue.jpg，1198×540，175600 bytes
+  花博公園官方合成形象圖，包含圓山入口招牌；不是單張活動實拍。
+  https://www.expopark.taipei/cp.aspx?n=447
+  https://ws.expopark.taipei/001/Upload/400/relpic/9101/1562/7ddae50d-6e7c-422e-8e3f-bb8d5b3dbb9a.jpg
+- venue-plaza.jpg，626×470，60250 bytes
+  圓山環形廣場，不是花海廣場。
+  https://www.expopark.taipei/FieldInfo_Detail.aspx?s=53&n=205
+  https://ws.expopark.taipei/001/Upload/400/relpic/9022/53/1ea71e80-9e84-461b-a136-cbf4e559b299@710x470.jpg
+- venue-grass.jpg，710×399，38502 bytes
+  圓山花海廣場，場館資料照片，並非活動當日。
+  https://www.expopark.taipei/FieldInfo_Detail.aspx?s=19&n=205
+  https://ws.expopark.taipei/001/Upload/400/relpic/9022/19/ce74a4c6-7002-4e30-a88b-3dd037596ff6@710x470.jpg
+
+所有本版位元圖為來源提供的原始檔案，未修圖、重新生成或改色。介面可能以 CSS 裁切顯示。本版活動照片沒有使用 AI 生成。
+上述圖片的權利各自獨立，並不適用舊版 Wikimedia 照片的 CC 授權。

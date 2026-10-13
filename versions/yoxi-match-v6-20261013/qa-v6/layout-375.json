@@ -1,0 +1,178 @@
+[
+  {
+    "id": "explore",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "import",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "organized",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "interests",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "music",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "event",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "rideprefs",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "rides",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "person",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "terms",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "pending",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "host",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "confirmed",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "playlist",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "karaoke",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "daily",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "icebreaker",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "reveal",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "arrival",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "musicmemory",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "mine",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  },
+  {
+    "id": "openride",
+    "broken": 0,
+    "height": 812,
+    "offscreenActions": 0,
+    "overflow": false,
+    "width": 375
+  }
+]

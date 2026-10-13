@@ -1,0 +1,61 @@
+yoxi MATCH! v2 — real venue photography
+Retrieved and visually inspected: 2026-10-13
+These are actual historical photographs of Songshan Cultural and Creative Park, Taipei. They illustrate the place; they do not depict or verify the fictional 2026-10-17 demo event. No image generation, pixel editing, color grading or cropping was performed. Downloaded JPEG originals are preserved unchanged.
+
+1. songshan-warehouses.jpg
+Dimensions: 4896 × 3264
+File size: 1,698,234 bytes
+Subject: former tobacco factory warehouses and Taipei New Horizon building; visitors walking in the foreground.
+Photographer: 玄史生
+Photographed: 2019-06-16
+License: CC0 1.0 Universal Public Domain Dedication
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source page: https://commons.wikimedia.org/wiki/File:Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20190616.jpg
+Original photographer publication: https://www.flickr.com/photos/137596559@N07/48097521973/
+Downloaded original: https://upload.wikimedia.org/wikipedia/commons/7/75/Songshan_Tobacco_Factory_Warehouses_%26_Taipei_New_Horizon_20190616.jpg
+Suggested credit: 松山文創園區倉庫群｜玄史生，CC0，2019
+Suggested alt: 松山文創園區的舊倉庫、臺北文創大樓與步行遊客。
+Use: recognizable real-venue discovery card / event location image. A photographed historic poster appears on the building; do not treat it as the demo event poster.
+
+2. songshan-warehouse-1.jpg
+Dimensions: 4896 × 3264
+File size: 1,819,539 bytes
+Subject: Songshan Creative Park Warehouse No. 1, arched walkway and trees in daylight.
+Photographer: 玄史生
+Photographed: 2019-06-16
+License: CC0 1.0 Universal Public Domain Dedication
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source page: https://commons.wikimedia.org/wiki/File:Warehouse_No._1,_Songshan_Cultural_and_Creative_Park_20190616.jpg
+Original photographer publication: https://www.flickr.com/photos/137596559@N07/48097574842/
+Downloaded original: https://upload.wikimedia.org/wikipedia/commons/b/b3/Warehouse_No._1%2C_Songshan_Cultural_and_Creative_Park_20190616.jpg
+Suggested credit: 松山文創園區一號倉庫｜玄史生，CC0，2019
+Suggested alt: 松山文創園區一號倉庫外的拱廊與樹蔭。
+Use: location detail / companion editorial tile; maintain accurate venue naming.
+
+License verification
+Both Wikimedia Commons file pages explicitly mark these photographs CC0 and record Flickr license review. CC0 allows copying, modification and commercial reuse without requesting permission. Credits retained here for provenance. The Commons API imageinfo/extmetadata response is preserved in provenance.json beside these photos.
+
+Not adopted
+- A 2017 real Songshan market photograph was found with CC BY-SA 4.0, but its download returned HTTP 429. No file was saved and it is not part of the delivered assets; no alternate-download workaround was attempted.
+- Taipei travel-site imagery was not downloaded because search surfaced restrictive image-use terms rather than an immediately usable open license.
+- Existing local project photos depict Tainan and were not relabeled as Taipei.
+
+App files were not changed in this asset task. Synthetic portrait and original generated zine files were not removed; replacement selection remains with the parent implementation.
+
+Additional small editorial card photograph
+3. bookstore-interior.jpg
+Dimensions: 3264 × 2448
+File size: 2,423,007 bytes
+Subject: an actual bookstore interior in Vermont, photographed 2014-01-03; warm wooden fixtures, colorful book displays, ordinary shop atmosphere.
+Photographer: MarkBuckawicki
+License: CC0 1.0 Universal Public Domain Dedication
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source page: https://commons.wikimedia.org/wiki/File:Bookstore_Interior.jpg
+Downloaded original: https://upload.wikimedia.org/wikipedia/commons/3/30/Bookstore_Interior.jpg
+Suggested credit: 書店氣氛示意｜MarkBuckawicki，CC0，2014（美國佛蒙特州）
+Suggested alt: 木質書架與彩色書籍陳列的書店內部，作為閱讀靈感示意。
+Use: generic non-location-specific reading inspiration tile, e.g.「找本書，慢慢看」. Do not call this a Taipei shop, assign a Taipei address, or identify a named independent bookstore without further evidence. Photographer's description specifies a bookstore in Vermont, not its business ownership.
+Provenance: bookstore-provenance.json stores Commons imageinfo and license metadata. File visually inspected unchanged; no generated pixels, color grading, crop or resizing performed.
+
+Generated portrait layout advice (no image edit)
+The existing fictional an-portrait.png is strongest as supporting human content rather than full-screen artwork. Feed/ride card: 64–88 px circle. Person detail: compact 116×144 px portrait or approximately 160 px image paired with personal text; CSS object-fit:cover and object-position around 50% 35% keeps the face readable. Avoid huge full-bleed face and decorative frame. Keep the synthetic/demo disclosure unchanged; smaller display does not make this a real person or real photograph.

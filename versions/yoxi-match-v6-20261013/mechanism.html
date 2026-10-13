@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>yoxi MATCH! V6｜一起出門，一起選歌</title>
+  <style>
+    :root{--ink:#202D3D;--muted:#596878;--blue:#EFF3E6;--blue-ink:#285F49;--line:#DAE2D9;--red:#D9213A;--white:#FFF}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--white);color:var(--ink);font-family:"PingFang TC","Noto Sans TC",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;font-size:16px;line-height:1.75}a{color:var(--blue-ink);text-decoration-thickness:1px;text-underline-offset:4px}a:focus-visible{outline:3px solid #1976BD;outline-offset:5px;border-radius:3px}header{max-width:1064px;margin:auto;padding:24px 32px;display:flex;justify-content:space-between;align-items:center;gap:24px;border-bottom:1px solid var(--line)}.brand{display:flex;gap:11px;align-items:center;font-size:15px;font-weight:750;letter-spacing:.02em}.brand img{width:57px;height:27px;object-fit:contain}.top-link{font-size:14px;text-decoration:none;white-space:nowrap}main{max-width:1000px;margin:auto;padding:64px 32px 80px}.intro{max-width:740px}.version{display:inline-block;color:var(--blue-ink);font-weight:650;font-size:14px;margin-bottom:15px}h1,h2,h3,p{margin:0}h1{font-size:clamp(32px,5vw,52px);line-height:1.25;letter-spacing:-.035em;font-weight:750}h2{font-size:26px;line-height:1.4;letter-spacing:-.02em}h3{font-size:20px;line-height:1.45}.intro>p{max-width:610px;color:var(--muted);font-size:18px;margin-top:21px}.primary{display:inline-flex;align-items:center;gap:14px;background:var(--red);color:white;text-decoration:none;border-radius:10px;padding:11px 20px;font-weight:650;margin-top:26px}.primary svg{width:18px;height:18px}section{margin-top:58px}.comparison{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:23px}.compare-row{display:grid;grid-template-columns:125px 1fr;gap:24px;padding:24px 0}.compare-row+ .compare-row{border-top:1px solid var(--line)}.compare-row.new{background:var(--blue);margin:0 -20px;padding:24px 20px;border-radius:0 0 12px 12px}.compare-label{font-weight:700}.compare-label small{display:block;font-size:13px;color:var(--muted);font-weight:450}.compare-row p{color:var(--muted);font-size:15px;margin-top:6px;max-width:670px}.flow{display:flex;align-items:center;gap:10px;flex-wrap:wrap;font-size:18px;font-weight:650}.flow svg{width:17px;height:17px;color:#7890A3;flex:none}.section-lead{color:var(--muted);margin-top:10px;max-width:720px}.rounds{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:27px}.round{padding-top:20px;border-top:3px solid #93BBD9}.round-timing{display:flex;gap:9px;align-items:center;font-size:14px;color:var(--blue-ink);font-weight:700;margin-bottom:13px}.round-timing svg{width:20px;height:20px}.round h3{max-width:290px;font-size:24px}.round p{color:var(--muted);font-size:15px;margin-top:12px;max-width:370px}.round a{display:inline-block;margin-top:17px;font-size:14px;font-weight:650}.how{margin-top:25px;background:var(--blue);padding:20px 24px;border-radius:12px;display:flex;gap:20px;align-items:center}.how strong{color:var(--blue-ink);flex:none}.how p{font-size:15px}.decision{display:grid;grid-template-columns:1fr 1fr;gap:34px;margin-top:29px}.decision-item{padding-left:16px;border-left:3px solid var(--line)}.decision-item h3{font-size:18px}.decision-item p{font-size:15px;color:var(--muted);margin-top:8px}.reality{background:#F7F9FB;border:1px solid var(--line);border-radius:16px;padding:29px}.reality-grid{display:grid;grid-template-columns:1fr 1fr;gap:35px;margin-top:22px}.reality h3{font-size:17px;margin-bottom:9px}.reality p{color:var(--muted);font-size:15px}.reality-note{border-top:1px solid var(--line);margin-top:22px;padding-top:17px}.sources{font-size:14px}.sources h2{font-size:20px}.sources p{max-width:780px;color:var(--muted);margin-top:14px}.sources a{font-weight:600}.bottom{margin-top:40px;display:flex;gap:22px;flex-wrap:wrap;font-size:14px}.bottom a{text-decoration:none}footer{max-width:1000px;margin:auto;padding:0 32px 35px;color:var(--muted);font-size:12px}
+    @media(max-width:640px){header{padding:18px 22px}.brand{font-size:13px;gap:8px}.brand img{width:49px}.top-link{font-size:13px}main{padding:42px 22px 50px}.intro>p{font-size:16px}section{margin-top:42px}h2{font-size:23px}.compare-row{grid-template-columns:1fr;gap:9px;padding:20px 0}.compare-label small{display:inline;margin-left:8px}.compare-row.new{margin:0 -12px;padding:20px 12px}.flow{font-size:17px;gap:7px}.rounds,.decision,.reality-grid{grid-template-columns:1fr;gap:26px}.round h3{max-width:none;font-size:22px}.how{display:block;padding:18px}.how p{margin-top:6px}.reality{padding:22px 19px}.reality-grid{gap:22px}.bottom{gap:18px}footer{padding:0 22px 28px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand"><img src="assets/yoxi-logo.svg" alt="yoxi"><span>一起出門</span></div>
+    <a class="top-link" href="index.html#explore">回到 Demo</a>
+  </header>
+  <main>
+    <div class="intro">
+      <span class="version">V6 互動機制</span>
+      <h1>一起出門，<br>一起選歌。</h1>
+      <p>活動讓人想出門，順路的車把人帶到一起。選幾首常聽的歌，讓同行的人多一個聊得起來的話題。</p>
+      <a class="primary" href="index.html#explore">開始逛活動 <span aria-hidden="true">→</span></a>
+    </div>
+
+    <section aria-labelledby="flow-title">
+      <h2 id="flow-title">同一趟出門，接起三件事</h2>
+      <div class="comparison">
+        <div class="compare-row"><div class="compare-label">找地方<small>活動與收藏</small></div><div><h3>週六去花博聽音樂？</h3><p>看活動、收藏、邀朋友。這次主場景仍是真實的滾草皮音樂市集。</p></div></div>
+        <div class="compare-row"><div class="compare-label">找同行<small>行程與偏好</small></div><div><h3>時間、路線合，再看共同喜好。</h3><p>先確認出發時間、上車地點、費用和車上氣氛。人物介紹顯示主動填寫的興趣，以及雙方真的選過的同一首歌。</p></div></div>
+        <div class="compare-row new"><div class="compare-label">有話聊<small>歌單與互動</small></div><div><h3>你加一首，我也加一首。</h3><p>歌單標出誰點的歌。想一起唱，再問彼此；抵達後能把這份歌單留下來，也能邀對方加好友。</p></div></div>
+      </div>
+      <p class="section-lead">主流程：看活動 → 選同行偏好 → 找車 → 雙方確認 → 選歌或聊一題 → 抵達。收藏、邀朋友和選歌也能各自使用。</p>
+    </section>
+
+    <section aria-labelledby="music-title">
+      <h2 id="music-title">歌曲共同點，怎麼得到？</h2>
+      <div class="rounds">
+        <article class="round"><div class="round-timing">01 · 本人選歌</div><h3>最近都在聽什麼？</h3><p>從六首示例歌曲選 1–3 首。曲名、歌手與專輯封面取自真實音樂資料。</p><a href="index.html#music">選常聽的歌</a></article>
+        <article class="round"><div class="round-timing">02 · 比對共同歌曲</div><h3>你們都選了這首。</h3><p>比較雙方選出的歌曲 ID，找出相同歌曲。小安的選歌為固定示例；沒有分析性格或計算配對率。</p><a href="index.html#person">看同行介紹</a></article>
+      </div>
+      <div class="how"><strong>實際可做的比對</strong><p>歌曲交集在瀏覽器計算。未讀取串流帳號、聆聽紀錄，也沒有模型猜測。</p></div>
+    </section>
+
+    <section aria-labelledby="ride-title">
+      <h2 id="ride-title">這趟想怎麼搭，先說清楚。</h2>
+      <div class="decision">
+        <div class="decision-item"><h3>安靜、聊天、聽歌或一起唱</h3><p>車上氣氛是這次行程的偏好，也能選「都可以」。先篩日期、路線、時間和偏好，再呈現歌曲共同點。</p></div>
+        <div class="decision-item"><h3>女性乘客同行</h3><p>這個條件只篩同行乘客，駕駛性別未指定。示例的小晴、小安均設定為女性，資料由本人填寫，不從姓名或興趣判斷。</p></div>
+      </div>
+      <p class="section-lead">目前沒有串接身分驗證；女性同行選項不構成身分查核或安全保證。雙方確認的是這趟行程的條件，唱歌意願另外確認。</p>
+      <a class="primary" href="index.html#rideprefs">看同行偏好 <span aria-hidden="true">→</span></a>
+    </section>
+
+    <section aria-labelledby="play-title">
+      <h2 id="play-title">從歌單，到一句「這首你也會？」</h2>
+      <div class="rounds">
+        <article class="round"><div class="round-timing">行程成立後</div><h3>這趟聽什麼？</h3><p>各加一首、看看誰點的歌、替喜歡的歌按讚。可改歌單，再回到行程。</p><a href="index.html#playlist">看這趟歌單</a></article>
+        <article class="round"><div class="round-timing">想一起唱時</div><h3>這首，一起唱？</h3><p>本人和對方各自表態。換歌後重新等對方回覆；雙方願意且車輛開放，再開啟歌曲。</p><a href="index.html#karaoke">看一起唱</a></article>
+      </div>
+      <div class="how"><strong>三個狀態分開</strong><p>本人想唱 · 同行者想唱 · 車內允許播放。後兩項由展示者控制示例，未連接其他乘客帳號或車輛設備。</p></div>
+      <p class="section-lead">歌曲連結開啟 Apple Music 原站。本版沒有內建播放器、卡拉 OK 音軌、歌詞、錄音或跨帳號同步。原有的兩題話題互動仍保留，也可以跳過。</p>
+    </section>
+
+    <section aria-labelledby="memory-title">
+      <h2 id="memory-title">到站後，歌單和朋友各自留下。</h2>
+      <div class="decision">
+        <div class="decision-item"><h3>收藏這趟的歌</h3><p>日期、路線和一起選過的歌放在同一頁，收藏到目前瀏覽器。之後還能回來看。</p></div>
+        <div class="decision-item"><h3>想再約，送出好友邀請</h3><p>抵達後可以加好友，需對方接受。下一次從朋友頁看邀約，或挑另一場活動。</p></div>
+      </div>
+      <p class="section-lead"><a href="index.html#musicmemory">看這趟的歌</a> · <a href="index.html#daily">看朋友邀約</a></p>
+    </section>
+
+    <section class="reality" aria-labelledby="demo-title">
+      <h2 id="demo-title">22 個畫面，現在能做到哪裡？</h2>
+      <div class="reality-grid">
+        <div><h3>真實的資料</h3><p>活動名稱、日期、地點與免費入場取自官方公告。六首歌的曲名、歌手、封面取自 Apple 台灣資料，另以藝人或唱片公司官方資料核對。</p></div>
+        <div><h3>本機操作</h3><p>收藏、興趣、選歌、歌曲交集、偏好、行程申請、歌單、唱歌意願、問題與好友邀請都有操作狀態，儲存在此瀏覽器。對方回覆與交通狀態由示例控制。</p></div>
+      </div>
+      <p class="reality-note">小晴、小安、阿睿、車位、時間與優惠是示例。整趟 NT$300 ÷ 2 人 − 優惠 NT$30 ＝每人 NT$120。未接正式 AI、身分驗證、多人帳號、派車、付款、活動報名或音樂串流；歌曲開啟外部服務。V6 實測結果以交付的驗證紀錄為準。</p>
+    </section>
+
+    <section class="sources" aria-labelledby="reference-title">
+      <h2 id="reference-title">介面與素材從哪裡來？</h2>
+      <p><a href="https://support.spotify.com/us/article/jam/" target="_blank" rel="noopener">Spotify Jam</a>提供一起選歌的互動參考；<a href="https://support.spotify.com/us/article/social-recommendations-in-playlists/" target="_blank" rel="noopener">Spotify Blend</a>呈現共同音樂喜好；<a href="https://support.apple.com/en-euro/guide/iphone/iph8ac7e8a46/ios" target="_blank" rel="noopener">Apple 車內 SharePlay</a>提供乘客加入與發起端確認的參考。本版沒有串接這些服務。</p>
+      <p><a href="https://www.jins.com/tw/news/news-6abf4a6ac3cd0" target="_blank" rel="noopener">JINS 主辦公告</a>列 10/17–18、14:00–19:00；<a href="https://www.expopark.taipei/News_Photo_Content.aspx?n=247&amp;s=4570&amp;sms=9029" target="_blank" rel="noopener">花博場地公告</a>列 14:00–18:00。本版採主辦時段，保留差異供查核。活動照片是標示過的四月華山場照片。</p>
+      <p>專輯封面為設計參考素材，尚未確認額外商業再利用許可。來源不代表合作或授權。完整紀錄見 <a href="references.html">設計與素材來源</a>、<a href="assets/v6/SOURCES.txt">音樂權利紀錄</a>。未宣稱 yoxi 與 JINS、Spotify、Apple 或藝人合作。</p>
+    </section>
+    <nav class="bottom" aria-label="設計檔案"><a href="index.html#explore">開啟互動 Demo</a><a href="overview.html">看全部 22 個畫面</a><a href="compare.html">比較 V5 與 V6</a></nav>
+  </main>
+  <footer>yoxi MATCH! 互動原型・V6。V1–V5 封存版本保留。</footer>
+</body>
+</html>

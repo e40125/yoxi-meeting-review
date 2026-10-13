@@ -1,0 +1,251 @@
+[
+  {
+    "id": "explore",
+    "broken": [],
+    "buttons": [],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "import",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "organized",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "interests",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "music",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 91
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "event",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "rideprefs",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 92
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "rides",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 769,
+        "height": 77.796875
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "person",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "terms",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "pending",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "host",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "confirmed",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 93
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "playlist",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 91
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "karaoke",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 91
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "daily",
+    "broken": [],
+    "buttons": [],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "icebreaker",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 91
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "reveal",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 91
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "arrival",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 91
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "musicmemory",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 91
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "mine",
+    "broken": [],
+    "buttons": [],
+    "overflow": false,
+    "width": 390
+  },
+  {
+    "id": "openride",
+    "broken": [],
+    "buttons": [
+      {
+        "bottom": 844,
+        "height": 122.3984375
+      }
+    ],
+    "overflow": false,
+    "width": 390
+  }
+]
