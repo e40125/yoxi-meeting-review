@@ -1,0 +1,8 @@
+V4 verification / 2026-10-13
+Complete: 17 rendered mobile screens inspected; screenshot gallery generated. 390x844 and 375x812 checked for horizontal overflow, missing images, footer placement. All pass. Photo paint lag on one screenshot recaptured; underlying images loaded.
+Flow verified in browser: friend invitation > own answer > different-answer comparison > switch question > skip back to correct friend context; event > route > consent required > pending > host confirms seat > pre-ride question (correct co-rider) > return to trip > demo ride > same-answer comparison > demo arrival > optional friend invitation remains pending.
+Friends intent: button saves wanted event, without creating confirmed booking or claiming friend notification. Existing friend context is distinct from co-rider context. Self answers persist locally.
+Updated confirmed layout keeps optional question visible with primary booking action. Captured after fix. Secondary result button contrast fixed and checked.
+Supporting pages: mechanism visually inspected; gallery has17 images and comparison has6; no missing local static references. JS syntax checks pass. Browser error log empty in tested tab.
+Copy invitation: modal and success feedback verified; OS clipboard contents not independently established.
+Not verified: real multi-person answers/permissions, real invitation delivery, AI ingestion, dispatch, payments or promos; these are not connected. Not a full accessibility audit, native device test, or retention experiment.

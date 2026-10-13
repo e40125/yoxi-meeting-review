@@ -1,0 +1,138 @@
+[
+  {
+    "actionBottom": 0,
+    "broken": 0,
+    "overflow": false,
+    "screen": "explore",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "import",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "organized",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "event",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 0,
+    "broken": 0,
+    "overflow": false,
+    "screen": "rides",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "person",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "terms",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "pending",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "host",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "confirmed",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 0,
+    "broken": 0,
+    "overflow": false,
+    "screen": "daily",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "icebreaker",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "reveal",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "arrival",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 0,
+    "broken": 0,
+    "overflow": false,
+    "screen": "mine",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "openride",
+    "viewport": 812,
+    "w": 375
+  },
+  {
+    "actionBottom": 812,
+    "broken": 0,
+    "overflow": false,
+    "screen": "interests",
+    "viewport": 812,
+    "w": 375
+  }
+]

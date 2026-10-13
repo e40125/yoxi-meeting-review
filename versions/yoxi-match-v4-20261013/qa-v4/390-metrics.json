@@ -1,0 +1,104 @@
+[
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "explore",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "import",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "organized",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "event",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "rides",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "person",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "terms",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "pending",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "host",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "confirmed",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "daily",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "icebreaker",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "reveal",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "arrival",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "mine",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "openride",
+    "width": 390
+  },
+  {
+    "broken": [],
+    "overflow": false,
+    "screen": "interests",
+    "width": 390
+  }
+]

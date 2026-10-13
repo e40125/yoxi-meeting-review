@@ -1,0 +1,49 @@
+V3 VISUAL AUDIT — ALL 17 CURRENT QA-V2 SCREENS
+Reviewed 2026-10-13. Scope: saved screenshots only, not a new interaction audit. Earlier missing 04 avatar / 06 cover were capture timing, now correctly painted. Current 15 bookmark width and 16 bottom copy are fixed. No app files edited.
+
+MAIN DIAGNOSIS
+The system is clear and consistent, but too many screens have the same emotional temperature: white backdrop, gray line, black heading, muted red button, repeating warehouse image. It currently tells us that people have interests, rather than letting us see why we would like spending time with them. The largest upgrade comes from editorial content and controlled variation by task: discovery should invite; people should feel individual; booking should clarify; play should surprise; arrival should acknowledge the shared experience.
+
+01 + 04 — EXPLORE / EVENT
+Works: native-feeling search, filter chips, concise event date/place/free state; 04 information and sticky action are readable.
+Problem: large historical building photographs dominate the product without expressing the fictional zine/illustration event itself. On 01, all useful content is one event and a social row; the next discovery section begins exactly at the tab bar.
+Best change: make the event a designed editorial identity (large well-spaced 紙上散步 typography, a distinctive date tile, a real venue photo as location context). Show a second, smaller discovery card peeking into the first screen. Retain the direct line 小安也想去—it links content to people immediately. Use the real street/cat photos as a separate local-photography inspiration strip instead of repeating the event exterior everywhere.
+Copy direction: section 本週推薦 → 週末去哪？ if the selection is actually weekend-oriented; keep practical 10/17、免費、松菸 visible. Human body line such as 逛小誌，也和創作者聊聊 rather than generic activity definitions.
+
+02 + 03 — IMPORT / ORGANIZED
+Works: one task per screen, privacy clear, save CTA clear.
+Problem: 02 looks like a blank admin textarea with a large idle middle area; 03 reuses the same warehouse hero and generic 興趣 block, so AI’s useful output is visually indistinct.
+Best change: on input, show a compact pasted-link/source card when input exists, with icon, source title, and place line. On result, compose a compact place record with actual extracted name, location, and two interest chips; show the original source as an obvious collapsible evidence row. The result should look like a small useful item created from a messy source, not another event detail.
+Copy direction: 連結或文字 → 想去的地方; button 整理內容 → 幫我整理. Do not attach a hardcoded event image to arbitrary custom input.
+
+06 + 15 + 17 — PEOPLE / MINE / INTERESTS
+Works: profile identity, tags, event intent, route time all readable; 17 selections clear.
+Problem: 小安’s large cover repeats the event venue instead of conveying her tastes; Mine has one saved event and much empty space; six equal pastel interest blocks feel like an onboarding template.
+Best change: replace the profile event cover with a real street-photography inspiration strip, keeping actual photographers credited and clearly treating the fictional persona as a sample. Put one specific personal line alongside it. Her destination remains a smaller actionable row below. Mine can use compact collection tiles with visually distinct covers; no fabricated count/friends. Interest cards can use a few photo details and a more editorial arrangement while retaining equal tap targets and explicit checks.
+Copy direction: 小安 / 出門都會帶相機 / 最近在拍台北老招牌。你有喜歡的街嗎？ A natural conversational clue is more effective than adding more tags or compatibility percentages. Preserve selected-interest truth.
+
+05 + 07 + 08 + 09 + 10 + 16 — RIDES / MUTUAL CONFIRMATION
+Works: 05 has the clearest decision hierarchy: person → route/time → extra minutes → price → action. 16 seat/time/conversation choices are understandable. 08 two avatars communicate a pending social request well.
+Problem: several subsequent screens repeat virtually identical origin/destination rows and price panels with only the heading changed. Progress feels like repeated form pages. In 09 common interests are printed twice within a short space.
+Best change: keep one stable trip summary card, change a prominent state region above it across 申請中 / 等你確認 / 同行已確認. Use the two-person visual for mutual consent, and make next action dominate. Tighten duplicated profile tags in 09. Keep financial and route detail quiet and exact. A modest persistent step label can make request → mutual confirmation → calling a car unmistakable, if it fits without adding another large panel.
+Copy direction: 找同行, 等小安回覆, 阿哲想一起搭 are already good. 接受同行 and 安排叫車 should remain distinct actions; don’t turn them into vague celebratory CTAs. 16 title could stay 開放同行, with more direct row label 可以多花多久？ only if width permits.
+
+11 + 12 + 13 — DAILY PLAY / ICEBREAKER / REVEAL
+Works: 11 has deliberate hierarchy and card composition, so it already differs from forms. 12 question is understandable.
+Problem: 12 is visually a survey: giant black text and three empty outlined rows. 13 answer is a generic pastel rectangle with sun icon; the experience stops at explanation and feels like a quiz result page rather than a conversation moment.
+Highest-impact change: show actual photo choices (cat / old signs / light or street moment) with short labels and a clear selected mark. Make the reveal a full photo with 小安’s short answer attached, followed by one concrete conversational prompt. This carries personality without adding words. Keep portrait + who supplied the answer visible.
+Potential wording: 小安路上看到什麼，會停下來拍？ / 路邊的貓 / 老招牌 / 巷子裡的光. Reveal can say 她選了：老招牌 and 最近拍到哪一個？ A statement like 每次看到都會忍不住拍 needs to be clearly fictional demo persona content, not inferred from a real person.
+Available real image assets: minsheng-cat.jpg, taipei-shop-signs.jpg, dihua-street.jpg. The first two are strongest here. Dihua is a documentary shop scene, not a shaft-of-light picture; don’t label it inaccurately.
+
+14 — ARRIVAL
+Works: accurate route/time/estimated fare and friend action are all present.
+Problem: visual hierarchy leads with the same building then receipt price. The new social relationship is a small row near the bottom. It feels like a receipt with a friend button appended.
+Best change: use a compact arrival header plus the two people and the destination they shared as the main moment. Put 加好友 next to the human relationship, leave fare collapsed or secondary. The product’s memorable outcome is a completed outing and optional new connection; this is the screen to show it clearly. Keep the receipt accessible and avoid calling an estimate a final charge.
+Copy direction: 到松菸了 / 和小安一起到這裡 / 加好友. Keep invitation explicit; do not auto-add friendship.
+
+GLOBAL CRAFT
+- Keep a small set of deliberate radii, spacing, and icon strokes. Some current round gray utility cards flatten distinct interactions into the same shape.
+- Match primary accent to the yoxi brand red or consciously chosen accessible text/button variant; the current dominant dark brick red feels less energetic than the logo.
+- Give photography a job: venue proof, personality clue, or answer. Do not reuse it merely to occupy the top of each screen.
+- Type contrast and actual content can create personality without making task screens busier. Use larger expressive type only in discovery/play; booking values and status should remain compact and calm.
+- Newly downloaded photographs are real, unchanged originals with specific licenses. Credits and truthful historical/fictional context are in v3-asset-sources.txt.
