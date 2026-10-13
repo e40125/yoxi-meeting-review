@@ -1,0 +1,16 @@
+V5 verification — 2026-10-13
+Complete: event replacement across17screens; authentic event photography with previous Huashan edition caption; new northward map; coherentSaturday13:30→13:45 trip;300÷2−30=120 illustrativefare; updatedfriendinvitationandconversationcopy.
+Browser verification (Codex in-app browser):
+- All17mobile screens captured390×844; each reviewedvisually by rootorassignedreviewer. No horizontal pageoverfloworbrokenloadedimages. Footeractionsstaywithinviewport.
+- All17screens checked375×812 foroverflow, imagefailures andfooterbounds; this is layoutverification, notfull accessibilitycertification.
+- ActualUIflow: event→rides→terms disableduntilcheckbox→request→pending→hostconfirm→confirmed→bookingdemomodal→duringridequestion→answerreveal→arrivalthroughdemo controls→optional pendingfriendrequest.
+- Before-ride existingfriendround preserves阿睿; duringride preserves小安. Same/differentanswerchoices revealcorrectly, noscoreorwin/lose.
+- Importexactnewexamplestring→organized→save succeeds. 我也想去 savesintent. Date10/24emptyandresetwork. Withdrawal andhostdecline showcorrectstates.
+- Updatedinvitationmodalreviewed. Noexternalmessage sent. Realmaps/dispatch/AI/payments notintegrated.
+- Enrouteopenride map visuallycheckedaftermovingstationlabelabovestatusbadge. Confirmedmapexpandedto200pxtoavoidletterboxing. Headphonecheckmarkreplacedwithrhythmbars.
+- Browser error/warning log wasemptyat endofinteractiveflow.
+- Comparepage rendered ondesktop. Reference links andlocalsource referenceschecked.
+Static verification: fourJavaScriptfilesparse. Agent-rendered17templateswithoutundefinedmarkup; allruntimeimage paths exist. Socialmodule64focusedstate/rendercheckspassed beforetinyillustration-onlyfix, syntaxrecheckedafter.
+Not verified: realmulti-user communication, liveAI/dispatch/payment, productionbackend, actualeventconversion/engagement, broaddevice/browsercompatibility, fullaccessibilityaudit. Current functionality is a static interactive prototype withlocalstorage.
+Sources: assets/v5/SOURCES.txt. JINS closingtime19:00conflictswithvenue18:00; prominentUIshows14:00startanddetailcitesorganizer. PhotosfromApril2026HuashannotupcomingOctoberFlowerExpo. NoJINSpartnershipclaimed. Photographreusepermissionnotestablishedbypublicpressavailability.
+Deployment verification is recorded separately in releases/v5-publication.json after publication.
