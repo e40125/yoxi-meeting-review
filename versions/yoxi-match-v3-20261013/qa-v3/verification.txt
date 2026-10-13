@@ -1,0 +1,22 @@
+yoxi MATCH! V3 verification — 2026-10-13
+
+Completed on the actual browser UI
+- All17 screens visually inspected at390×844; all17 checked for horizontal overflow and bottom-action placement at375×812. No overflow. All product images loaded. Two initial375 load checks were premature; revisited event/daily and confirmed complete images with natural dimensions.
+- All17 final screenshots saved here. Arrival initially captured before image paint; recaptured and visually confirmed. Daily author-chip overlap, saved-poster crop and map demo-label overlap were corrected and rechecked.
+- Full journey: explore → person → consent/terms → request → host acceptance → confirmed → booking demonstration → photo quiz → incorrect-answer reveal → arrival → friend invitation → acceptance → friends list. Friendship survives reload.
+- Withdraw, decline and accept were operated across two same-origin browser tabs; recipient UI updated correctly. Duplicate active trip remains guarded.
+- Changed search time with an existing accepted trip: map label and ticket both retain the14:30 confirmed departure.
+- Blank import validation; sample exact-string recognition; interest editing and return to organized screen; manual custom place correction; collection persistence after reload. Saving a new collection now selects the collection tab.
+- Daily quiz answer, prediction vote awaiting result, editable question draft, planned/enroute mode, seat count, detour choice and chat toggle exercised. Settings survive reload.
+- Category empty state and reset exercised. Keyboard Space selection keeps focus and visible outline on interest card.
+- Gallery filter shows3 play screens. Reference page’s10 images loaded. All112 local asset/link references checked; published selection re-audited separately.
+- JavaScript syntax checks passed for app.js, v2.js, social-v2.js and map.js.
+- Copy audit covered all17 screens, dialogs, metadata and status wording; rejected light/poetic biography removed. User-provided bio and question preserved.
+
+Not verified / boundaries
+- This is a frontend interaction prototype with fictional people, activity, fare and promotion. No real AI content extraction, accounts, cross-device matching, live seats, dispatch, payments or reward redemption.
+- Same-origin localStorage synchronization is demonstrated; it is not a multi-user backend.
+- Visual/keyboard checks are not a full accessibility audit. Not tested on native iOS/Android hardware or every browser.
+- No usability study, conversion lift, retention or virality claim established.
+- The original large licensed photos are bundled unchanged; performance on slow mobile networks has not been benchmarked.
+- Public deployment verification is recorded in releases/v3-publication.json outside this snapshot after deployment.
