@@ -1,0 +1,13 @@
+{
+  "version": "final-20261014",
+  "submitted_date": "2026-10-14",
+  "pdf": {
+    "file": "yoxi-MATCH-final.pdf",
+    "pages": 17,
+    "bytes": 7132934,
+    "sha256": "ad3319cf5d446698266a4aae21f71e96baa8adaf38b96a10d9f08f742d03f4be"
+  },
+  "app": "https://e40125.github.io/yoxi-meeting-review/versions/yoxi-match-v8-20261014/#explore",
+  "video": "https://youtu.be/-PeAa4WHkDo",
+  "code": "https://github.com/e40125/yoxi-meeting-review/tree/main/versions/yoxi-match-v8-20261014"
+}
