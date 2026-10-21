@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>實作與技術補充｜yoxi MATCH!</title><meta name="description" content="社群貼文收藏、AI 搜尋推薦與順路共乘的實作網站、技術分工及驗證狀態。"><link rel="icon" href="../../icon.svg" type="image/svg+xml"><link rel="stylesheet" href="technical.css"></head>
+<body><a class="skip" href="#main">跳到內容</a>
+<header><a class="brand" href="../../">yoxi <span>MATCH!</span></a><a href="../final-20261014/">初賽提交版 ↗</a></header>
+<main id="main">
+<section class="hero"><p class="eyebrow">實作與技術補充 · 文件 2026.10.20</p><h1>從「想去」，<br>到「去得成」。</h1><p class="lead">把貼文整理成想去的地方，依當下需求推薦，<br class="desktop-break">再把路線、時間與分攤費用算進同行方案。</p>
+<div class="actions"><a class="button primary" href="https://yoxi.soonix.dev" target="_blank" rel="noopener">開啟實作網站 <span aria-hidden="true">↗</span></a><a class="button" href="yoxi_competition_brief_20261020.pdf">閱讀技術文件 <span>7 頁 PDF</span></a></div><p class="access-note">網站可先瀏覽附近地點；收藏與找同行需登入。</p></section>
+<section class="section" aria-labelledby="use-title"><div class="section-heading"><p class="eyebrow">這次補充什麼</p><h2 id="use-title">把收藏、推薦和出發接起來</h2></div><div class="features">
+<article><span class="step">收藏</span><h3>貼文裡的地點，<br>留下來就能再找到。</h3><p>整理可取得的 IG／Threads 內容，辨識店名與地址並保留來源。同店合併、分店分開，多間店由使用者選擇。</p><a href="yoxi_competition_brief_20261020.pdf#page=2">內容解析與地點整理 →</a></article>
+<article><span class="step">推薦</span><h3>平常愛咖啡，<br>今天也能優先找展覽。</h3><p>結合這次需求、近期關注與長期收藏，再用地點關係和目前出發位置找候選；搜尋也支援主題與語意。</p><a href="yoxi_competition_brief_20261020.pdf#page=3">推薦流程與關係圖 →</a></article>
+<article><span class="step">同行</span><h3>願意一起去，<br>也要時間、費用都合適。</h3><p>同目的地與多目的地方案逐人檢查最晚抵達時間、繞路及預估分攤，再交由本人確認。</p><a href="yoxi_competition_brief_20261020.pdf#page=5">共乘條件與分攤方式 →</a></article>
+</div></section>
+<section class="section" aria-labelledby="tech-title"><div class="section-heading"><p class="eyebrow">技術分工</p><h2 id="tech-title">AI 理解需求，路線求解檢查能否同行</h2></div>
+<dl class="technical-roles"><div><dt>多模態模型＋查詢助理</dt><dd>從文字、圖片或影片找出地點；資訊不足時補查公開來源。</dd></div><div><dt>文字向量搜尋</dt><dd>把需求和地點描述的意思拿來比對，同時保留精確店名與品牌搜尋。</dd></div><div><dt>圖模型推薦</dt><dd>學習地點、主題、位置與來源的關係，再融合本人需求與經同意的共同收藏訊號。</dd></div><div><dt>道路與共乘求解</dt><dd>用道路、期限、繞路和金額條件篩選方案；推薦分數不能蓋過這些限制。</dd></div></dl>
+</section>
+<section class="section status" aria-labelledby="status-title"><div class="section-heading"><p class="eyebrow">實作進度</p><h2 id="status-title">原型已做到哪裡</h2></div>
+<div class="status-grid"><div><h3>技術文件記錄的成果</h3><ul><li>約 120 萬筆公開地點可搜尋。</li><li>已有 IG Reel／Threads 辨識與收藏案例。</li><li>約 1.5 萬地點參與已訓練的公開圖模型。</li><li>已測試同目的地與多目的地的道路、分攤流程。</li></ul></div><div><h3>接下來驗證與整合</h3><p>以真人試辦衡量收藏、再次使用、配對與方案採用。目前產物為出發預覽；正式報價、派車、付款與乘車成效仍待原生服務整合及驗證。</p><a href="yoxi_competition_brief_20261020.pdf#page=7">試辦計畫與衡量方式 →</a></div></div>
+</section>
+<section class="section" aria-label="完整技術文件"><details class="document"><summary><span>完整技術文件</span><span class="document-meta">7 頁 · 展開閱讀</span></summary><div class="document-body"><p class="document-links"><a href="yoxi_competition_brief_20261020.pdf">開啟 PDF</a><a href="yoxi_competition_brief_20261020.pdf" download>下載原始 PDF</a></p><figure><figcaption>第 1 頁 · 從「想去」，到「去得成」</figcaption><a href="yoxi_competition_brief_20261020.pdf#page=1" aria-label="在 PDF 閱讀第 1 頁：從「想去」，到「去得成」"><img src="page-1.webp" width="849" height="1200" alt="第 1 頁：從「想去」，到「去得成」。完整文字可由上方 PDF 閱讀。" loading="lazy"></a></figure>
+<figure><figcaption>第 2 頁 · 三種 AI，各自解決一個關鍵問題</figcaption><a href="yoxi_competition_brief_20261020.pdf#page=2" aria-label="在 PDF 閱讀第 2 頁：三種 AI，各自解決一個關鍵問題"><img src="page-2.webp" width="849" height="1200" alt="第 2 頁：三種 AI，各自解決一個關鍵問題。完整文字可由上方 PDF 閱讀。" loading="lazy"></a></figure>
+<figure><figcaption>第 3 頁 · Graph 的決策流程：從資料走到推薦</figcaption><a href="yoxi_competition_brief_20261020.pdf#page=3" aria-label="在 PDF 閱讀第 3 頁：Graph 的決策流程：從資料走到推薦"><img src="page-3.webp" width="849" height="1200" alt="第 3 頁：Graph 的決策流程：從資料走到推薦。完整文字可由上方 PDF 閱讀。" loading="lazy"></a></figure>
+<figure><figcaption>第 4 頁 · Graph 的內部：Node 與 Edge 如何連接</figcaption><a href="yoxi_competition_brief_20261020.pdf#page=4" aria-label="在 PDF 閱讀第 4 頁：Graph 的內部：Node 與 Edge 如何連接"><img src="page-4.webp" width="849" height="1200" alt="第 4 頁：Graph 的內部：Node 與 Edge 如何連接。完整文字可由上方 PDF 閱讀。" loading="lazy"></a></figure>
+<figure><figcaption>第 5 頁 · 推薦要用得上，共乘要先算得過</figcaption><a href="yoxi_competition_brief_20261020.pdf#page=5" aria-label="在 PDF 閱讀第 5 頁：推薦要用得上，共乘要先算得過"><img src="page-5.webp" width="849" height="1200" alt="第 5 頁：推薦要用得上，共乘要先算得過。完整文字可由上方 PDF 閱讀。" loading="lazy"></a></figure>
+<figure><figcaption>第 6 頁 · 護城河，來自能持續累積的資產</figcaption><a href="yoxi_competition_brief_20261020.pdf#page=6" aria-label="在 PDF 閱讀第 6 頁：護城河，來自能持續累積的資產"><img src="page-6.webp" width="849" height="1200" alt="第 6 頁：護城河，來自能持續累積的資產。完整文字可由上方 PDF 閱讀。" loading="lazy"></a></figure>
+<figure><figcaption>第 7 頁 · 實作成果與試辦計畫</figcaption><a href="yoxi_competition_brief_20261020.pdf#page=7" aria-label="在 PDF 閱讀第 7 頁：實作成果與試辦計畫"><img src="page-7.webp" width="849" height="1200" alt="第 7 頁：實作成果與試辦計畫。完整文字可由上方 PDF 閱讀。" loading="lazy"></a></figure></div></details></section>
+<footer><p>網站更新 2026.10.21。技術說明依團隊 10/20 文件整理；10/14 初賽提交檔保留原版。</p><nav aria-label="其他成果"><a href="../final-20261014/">初賽提交版</a><a href="../yoxi-match-v8-20261014/#explore">原版互動 Demo</a><a href="https://youtu.be/-PeAa4WHkDo">兩分鐘影片</a></nav></footer>
+</main></body></html>
