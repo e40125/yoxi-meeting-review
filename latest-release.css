@@ -2,3 +2,19 @@
 
 .version-notice{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:22px 24px;margin:0 0 28px;background:var(--back);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:8px}.version-notice p{margin:0}.version-notice .button{font-size:16px;padding:10px 16px}.downloads>.previous-release{margin:24px 0 36px}.downloads>.previous-release>summary{font-size:18px}.downloads>.previous-release .proposal-downloads{margin-top:20px}
 @media(max-width:700px){.version-notice{padding:18px}.version-notice .button{width:100%;text-align:center}}
+
+/* Latest implementation: first content on the home page. */
+.home-latest{margin:28px 0 0;padding:34px 36px;background:#17334d;color:#fff;border-radius:16px;scroll-margin-top:100px}
+.home-latest .home-latest-date{display:inline-block;margin:0 0 18px;padding:5px 11px;background:#dceee9;color:#195d53;border-radius:6px;font-size:12px;font-weight:650;line-height:1.5;letter-spacing:.04em}
+.home-latest h1{margin:0;font-size:clamp(27px,3.5vw,40px);font-weight:650;line-height:1.35;letter-spacing:-.035em;color:#fff}
+.home-latest .home-latest-summary{margin:14px 0 24px;font-size:17px;line-height:1.75;color:#e2eaf0}
+.home-latest-actions{display:flex;gap:12px;flex-wrap:wrap}
+.home-latest-actions a{display:inline-flex;align-items:center;justify-content:space-between;gap:20px;min-height:50px;padding:13px 18px;border:1px solid #8097aa;border-radius:8px;color:white;text-decoration:none;font-size:15px;font-weight:600;line-height:1.5}
+.home-latest-actions a span{font-size:12px;font-weight:400}
+.home-latest-actions a:hover{background:#28485f;border-color:#fff;text-decoration:none}
+.home-latest-actions .home-latest-primary{background:#d33c35;border-color:#d33c35}
+.home-latest-actions .home-latest-primary:hover{background:#b92e29;border-color:#b92e29}
+.home-latest-actions a:focus-visible{outline:3px solid #f7cf79;outline-offset:4px}
+.home-submitted h2{font-size:28px;line-height:1.4;margin:6px 0 12px}
+@media(max-width:700px){.home-latest{margin-top:18px;padding:24px}.home-latest .home-latest-summary{font-size:15px;margin:12px 0 20px}.home-latest-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.home-latest-actions .home-latest-primary{grid-column:1/-1}.home-latest-actions a{min-height:48px;padding:11px 12px;gap:8px;font-size:14px}.home-submitted h2{font-size:25px}}
+@media(max-width:370px){.home-latest{padding:20px}.home-latest-actions{grid-template-columns:1fr}.home-latest-actions .home-latest-primary{grid-column:auto}.home-latest h1{font-size:26px}}
